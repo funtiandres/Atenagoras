@@ -1,0 +1,446 @@
+body{
+    margin: 0;
+}
+
+.logo{
+    justify-content: center;
+    position: relative;
+    text-align: center ;
+    width: 100px;
+    height: 120px;
+    left: 50%;
+
+}
+
+
+
+.nav {
+
+justify-content: center;
+position: relative;
+left: 35%;
+top: 20px;
+top: auto;
+
+
+
+}
+
+.ul_listType {
+    list-style-type: none;
+    
+    }
+    
+
+.lista__nav {
+    
+    position: relative;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    background: 3D56B2;
+    border-radius: 20%;
+    border-style: outset;
+    font-size: 25px;
+    font-family: sans-serif, Verdana  ;
+    
+           
+   
+}
+
+
+header {
+    background-color: rgb(17, 141, 199);
+    position: sticky;
+    top: 0;
+    border: #E6E6E6 solid 5px;
+    z-index: 1;
+  
+    
+}
+
+.portal {
+    position: relative;
+    width: 70%;
+    height: 500px;
+    margin: 60px ;
+    left: 10%;
+}
+
+.portal__parrafo {
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    
+    
+}
+
+.portal__parrafo--texto {
+    font-family: 'Zen Antique';
+    position: relative;
+    font-size: 18px;
+    width: 70%;
+    height: 40%;
+    margin: auto;  
+    text-align: center;  
+    
+    }
+
+.imagenes {
+        position: relative;
+        width: 300px;
+        height: 300px;
+
+        
+    }
+
+ .section__imagenes{
+        position: relative;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        height: 800px;
+        
+    }
+
+    .Autoridades {
+        position: relative;
+        justify-content: center;
+        top: 400px;
+        left: 40%;
+        text-decoration: rgb(17, 141, 199);
+
+
+    }
+    .Ideario {
+        position: relative;
+        justify-content: center;
+        text-decoration: rgb(17, 141, 199);
+        top: 400px;
+        left: 40%;
+        
+
+    }
+    .Instalaciones {
+        position: relative;
+        justify-content: center;
+        top: 400px;
+        left: 40%;
+        
+
+    }
+
+ .imagenes__redes {
+        position: absolute;
+        width: 45px;
+        height: 50px;
+        
+        
+    }
+
+ .logo2 {
+    justify-content: center;
+    position: relative;
+    text-align: center ;
+    margin: 5px;
+    top: 15px;
+    width: 100px;
+    height: 120px;
+   
+    }
+
+ .div__imagen1   {
+     
+        position: relative;
+        display: inline-block;
+        margin: 100px;
+        left: 200px;
+
+    }
+
+ .div__imagen2 {
+        position: relative;
+        display: inline-block;
+        margin: 100px;
+        left: 200px;
+        
+
+        
+
+    }
+ .div__imagen3 {
+        position: relative;
+        display: inline-block;
+        margin: 100px;
+        left: 200px;
+        
+    }
+
+
+  
+
+    footer {
+        background-color: rgb(17, 141, 199);
+        border: slategray solid 5px;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 170px ;
+            
+        }
+
+        .div__logo2{
+            position: relative;
+            width: 400px;
+            height: 180px;
+        }
+
+    .div__redes1 {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        left: 60%;
+        top: -120px;        
+
+    }
+
+    .div__redes2 {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        left: 47%;
+        top: -120px;
+
+    }
+
+    .div__redes3 {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        left: 35%;
+        top: -120px;
+        
+    }
+
+    .div__copy {
+        position: relative;
+        background-color: rgb(17, 141, 199);
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: 50px;
+        margin: 5px;
+        left: 50%;
+
+    }
+
+    .div__copy2 {
+        position: relative;
+        background-color: rgb(17, 141, 199);
+        border: slategray solid 5px;
+        width: 100%;
+        height: 50px;
+       top: -50px;
+       margin: 0;
+       padding: 0;
+        
+
+    }
+
+    .datos {
+        font-family: "Zen Antique";
+        font-size: 20px;
+                
+    }
+
+    .div__datos{ 
+        position: relative;
+        justify-content: center;
+        text-align: right;
+        padding: 0px 60px ;
+        top: -220px;
+        left: 65%;
+        width: 500px;
+        height: 10px;
+     }
+        
+     .section__Bachiller{
+         position: relative;
+         margin: 50px;
+         padding: 5px;
+         width: 100%;
+         height: 500px;
+         
+
+     }
+
+     .imagen__Bachiller{
+         width: 400px;
+         height: 300px;
+     }
+
+    .div__Bachiller{
+        position: relative;
+        display: inline-block;
+        margin: 10px 25px ;
+        padding: 5px 50px;
+        left: 250px;
+        width: 600px;
+        height: 500px;
+        
+
+    }
+
+    .h3__Bachiller1{
+       display: inline-block;
+       width: 400px;
+       height: 50px;
+       
+       
+       
+       
+    }
+
+    .h3__Bachiller2{
+       display: inline-block;
+       
+        
+    }
+
+    .iframe{
+        width: 500px;
+        height: 400px;
+
+    }
+
+    .div__iframe{
+        margin: 100px 40%;
+    }
+    .div__input{
+        display: inline-block;
+        margin: -80px -140px;
+       
+    }
+
+    .input__nombre{
+        display: flex;
+        margin: 10px 900px;
+        width: 500px;
+        
+    }
+    .input__mail{
+        display: flex;
+        margin: 10px 900px;
+        width: 500px;
+    }
+    .input__tel{
+        display: flex;
+        margin: 10px 900px;
+        width: 500px;
+    }
+    .input__texto{
+        display: flex;
+        margin: 10px 900px;
+        width: 500px;
+    }
+    .enviar{
+        display: inline;
+        margin: 10px 900px;
+        
+    }
+    .reset{
+        display: inline;
+        margin: 10px 900px;
+    }
+
+    .h1__autoridades{
+        display: inline-block;
+        margin: 50px 50%;
+
+    }
+
+    .h2__autoridades--parrafo{
+        margin: 0px 40px;
+        width: 1900px;
+        height: 80px;
+    }
+        .parrafo{
+            font-family: "Zen Antique";
+            font-size: 20px;
+    } 
+
+    .p__ideario{
+        font-family: "Zen Antique";
+        font-size: 20px;
+    }
+    .h1__ideario{
+        font-family: "Zen Antique";
+        font-size: 20px;
+    }
+    .div__ideario{
+        display: inline-block;
+        margin: 10px 50%;
+
+    }
+    .img__instalaciones--tamaño{
+        width: 400px;
+        height:300px;
+    }
+    .div__intalaciones{
+        display: inline;
+        width: 400px;
+        height: 300px;
+    }
+    .h1__instalaciones{
+        display: inline-block;
+        margin: 50px 50%;
+        font-family: "Zen Antique";
+            font-size: 20px;
+    }
+    
+    .div__instalaciones{
+        display: flexbox;
+        width: 1000px;
+        height: 300px;
+        
+    }
+    .section__instalaciones{
+        display: flex;
+        width: 1000px;
+        height: 400px;
+        margin: 0px 500px;
+        
+    }
+   .section__img--instalaciones{
+       display: flex;
+       
+       
+   }
+   .h2__seguridad{
+    display: inline-block;
+    margin: 50px 50%;
+    font-family: "Zen Antique";
+        font-size: 20px;
+   }
+   .h3__seguridad{
+    display: inline;
+    font-family: "Zen Antique";
+    font-size: 18px;
+   }
+   .h2__edificio{
+    display: inline-block;
+    margin: 50px 50%;
+    font-family: "Zen Antique";
+    font-size: 18px;
+   }
+   .h3__edificio{
+    display: inline-block;
+    font-family: "Zen Antique";
+    font-size: 18px;
+   }
+   
+
