@@ -278,7 +278,7 @@
         border: rgb(0, 0, 0) solid 5px;
         
     }
-    .div__copy2{
+    .div__copy {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -396,7 +396,7 @@
         font-size: 25px;
         
     }
-    .div__copy2 {
+    .div__copy {
         display: flex;
         background-color: rgb(17, 141, 199);
         justify-items: center;
