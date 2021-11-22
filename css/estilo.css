@@ -211,6 +211,30 @@
         color: blanchedalmond;
         text-decoration: none;
     }
+
+    .div__input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 25px auto; 
+        
+        
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .div__iframe {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 50px auto;
+
+    }
 }
 /* VISTA DESKTOP*/
 @media only screen and (min-width: 769px)  {
@@ -410,6 +434,31 @@
         color: blanchedalmond;
         text-decoration: none;
     }
+    .div__input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 25px auto; 
+        
+        
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .div__iframe {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 50px auto;
+
+    }
+
+    
    
     
           
