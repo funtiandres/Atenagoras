@@ -8,20 +8,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+    <!-- css -->
     <link rel="stylesheet" href="css/estilo.css">
 
 </head>
 <body>
     <!-- inicio header -->
-    <header>
+ <div class="gridContainer ">
+    
+     <header>
         
-        <div>
-            <img class= "logo" src="assets/escudo.png" alt="Atenagoras" class="logo_imagen">
-        </div>
-        <div class="div__nav">
-            <nav class="nav">
-                <ul class="ul_listType">
-                    <li >
+         <div class="div__imgLogo ">
+               <img class= "imgLogo flex" src="assets/escudo.png" alt="Atenagoras" class="logo_imagen">
+         </div>
+     
+         <div class="div__nav">
+            <nav class="nav flex">
+                <ul class="ul_listType ">
+                    <li>
                         <a class="lista__nav" href="index.html">Instituto</a>
                         <a class="lista__nav" href="/pages/planesdeestudio.html">Planes de estudio</a>
                         <a class="lista__nav" href="/pages/ingreso.html">Ingreso</a>
@@ -32,18 +36,18 @@
                 </ul>
             </nav>
         </div>
-    
     </header>
+        
     <!-- fin header -->
     <!-- incio main -->
-        <main>
-            <section>
-                <div>
-                    <img class="portal" src="assets/imagenportada.jpg" alt="imagenportada">
+        <main class="flex">
+            <section class="section__img--portada ">
+                <div class="flex">
+                    <img class="imgPortada" src="assets/imagenportada.jpg" alt="imagenportada">
                 </div>
             </section>
-            <section>
-                <div class="portal_parrafo">
+            <section class="section__portal--parrafo">
+                <div>
                     <h2>
                         <p class="portal__parrafo--texto">
                             EL INSTITUTO GRIEGO ATENÁGORAS I está cumpliendo treinta años de trayectoria en la Educación Argentina, única en Sudamérica como institución Helénica de Nivel Medio. Desde su fundación en 1991, realizada por su Eminencia Reverendísima Monseñor Georgios Gennadios Chrysoulakis, echó sus raíces en el barrio de Villa Crespo y creció formando generaciones de jóvenes bajo el lema; “Una persona plena para un Mundo nuevo”.
@@ -52,13 +56,13 @@
                 </div>
             </section>
             <section class="section__imagenes">
-                <div class="div__imagen1">
+                <div class="div__imagen">
                     <a  href="./pages/instituto/autoridades.html"><h3 class="Autoridades">Autoridades</h3><img class="imagenes" src="./assets/autoridades.jpg" alt="Autoridades"></a>
                 </div>
-                <div class="div__imagen2">
-                    <a  href="./pages/instituto/ideario.html"><h3 class="Ideario">Ideario</h3><img class="imagenes"  src="../assets/ideario.jpg" alt="Ideario"></a>
+                <div class="div__imagen">
+                    <a  href="./pages/instituto/Ideario.html"><h3 class="Ideario">Ideario</h3><img class="imagenes"  src="../assets/ideario.jpg" alt="Ideario"></a>
                 </div>
-                  <div class="div__imagen3">
+                  <div class="div__imagen">
                     <a  href="./pages/instituto/instalaciones.html"><h3 class="Instalaciones">Instalaciones</h3><img class="imagenes"  src="../assets/instalaciones2.jpg" alt="instalaciones"></a>
                 </div>
             </section>
@@ -67,37 +71,38 @@
            
         </main>
               
-        <!-- fin main -->
+     <!-- fin main -->
     
-    <!-- inicio footer -->
-    <footer>
+     <!-- inicio footer -->
+    <footer >
         <div class="div__logo2">
-            <img class="logo2" src="../assets/escudo.png" alt="Atenagoras">
+            <img class="imgLogo" src="../assets/escudo.png" alt="Atenagoras">
                         
         </div>
-        <div class="div__redes1">
-            <a href="https://twitter.com/atenagoras_1" target="_black"><img class="imagenes__redes" src="./assets/twitter.png" alt="twitter"></a>
+        <div class="div__redes ">
+            <a href="https://twitter.com/atenagoras_1" target="_black"><img class="imgRedes" src="./assets/twitter.png" alt="twitter"></a>
         </div>
-        <div class="div__redes2">
-            <a href="https://www.facebook.com/atenagoras1/" target="_black"><img class="imagenes__redes" src="./assets/facebook.png" alt="facebook"></a>
+        <div class="div__redes ">
+            <a href="https://www.facebook.com/atenagoras1/" target="_black"><img class="imgRedes" src="./assets/facebook.png" alt="facebook"></a>
         </div>
-        <div class="div__redes3">
-            <a href="https://instagram.com/atenagoras_1?utm_medium=copy_link" target="_black"><img class="imagenes__redes" src="./assets/instagram.png" alt="instagram" ></a>
+        <div class="div__redes">
+            <a href="https://instagram.com/atenagoras_1?utm_medium=copy_link" target="_black"><img class="imgRedes" src="./assets/instagram.png" alt="instagram" ></a>
         </div>
-        <div class="div__datos">
+        <div class="div__redes">
             <h4 class="datos">
                 Lerma 242/52 CABA, Argentina <br>
                 Telefono: 011 4777-2124 <br>
                 atenagoras1@gmail.com
             </h4>
         </div>
-        <div class="div__copy2">
+        
             <div class="div__copy">
-                <img class="imagenes__redes" src="./assets/copyright.png" alt="logocopyright">
+                <img class="imgRedes" src="./assets/copyright.png" alt="logocopyright">
             </div>
-        </div>
+        
        
     </footer>
     <!-- fin footer -->
+</div>
 </body>
 </html>
