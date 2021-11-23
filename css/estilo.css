@@ -235,6 +235,58 @@
         margin: 50px auto;
 
     }
+    .img__instalaciones--tamaño {
+       
+        
+        display: inline-block;
+        height: 40% ;
+        width: 30%;
+        margin: 1%;
+        
+    }
+
+     .div__instalaciones {
+        display: flex;
+        height: 10%;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        
+    }
+
+      .div__instalaciones--tamaño {
+        display: flex;
+        flex-wrap: wrap;
+       
+       
+    }  
+
+    .h1__instalaciones {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-items: center; 
+
+    }
+    .section__instalaciones {
+        display: flex;
+        flex-direction: column;        
+        width: 60%;
+        height: max-content;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        padding: 3% 20%;
+
+    }
+
+    /* .div__instalaciones2 {
+        
+        height: auto;
+        width: auto;
+
+    } */
 }
 /* VISTA DESKTOP*/
 @media only screen and (min-width: 769px)  {
@@ -457,6 +509,59 @@
         margin: 50px auto;
 
     }
+
+    .img__instalaciones--tamaño {
+       
+        
+        display: inline-block;
+        height: 40% ;
+        width: 30%;
+        margin: 1%;
+        
+    }
+
+     .div__instalaciones {
+        display: flex;
+        height: 10%;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        
+    }
+
+      .div__instalaciones--tamaño {
+        display: flex;
+        flex-wrap: wrap;
+       
+       
+    }  
+
+    .h1__instalaciones {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-items: center; 
+
+    }
+    .section__instalaciones {
+        display: flex;
+        flex-direction: column;        
+        width: 60%;
+        height: max-content;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        padding: 3% 20%;
+
+    }
+
+    /* .div__instalaciones2 {
+        
+        height: auto;
+        width: auto;
+
+    } */
 
     
    
