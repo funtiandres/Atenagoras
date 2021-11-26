@@ -70,18 +70,24 @@
     }
     .div__redes {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-items: center;
         align-items: center;
         width: 100%;
+        height: fit-content;
+        
         
     }
     .datos {
         display: flex;
-        flex-direction: column;
-        width: auto;
+        flex-wrap: wrap;
+        width: 100%;
+        height: fit-content;
         font-size: 12px;
         justify-content: center;
+        
+
+        
     }
 
     
@@ -518,6 +524,8 @@
         justify-items: center;
         justify-content: center;
         align-items: center;
+        margin: 7px 0px;
+        border: black 5px solid;
 
     }
 
@@ -620,6 +628,13 @@
         justify-content: center;
         padding: 3% 20%;
 
+    }
+    .section__footer {
+        display: flex;
+    }
+    .section__direccion {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     /* .div__instalaciones2 {
