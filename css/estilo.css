@@ -362,7 +362,7 @@
     }
     header{
         grid-area: header;
-        background-color: rgb(42, 140, 201);
+        background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         border: rgb(0, 0, 0) solid 5px;
         justify-content: center;
         justify-items: center;
@@ -382,17 +382,12 @@
         grid-area: footer;  
         display: flex;
         height: fit-content;
-        background-color: rgb(42, 140, 201);
+        background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         justify-content: space-between;
         border: rgb(0, 0, 0) solid 5px;
         
     }
-    .div__copy {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
+   
     
     
     .flex {
@@ -476,6 +471,7 @@
                 
 
     }
+    
    
     .imagenes{
         width: 300px;
@@ -503,6 +499,7 @@
         
         list-style-type: none;
         text-decoration: none;
+        
        
         
     }
@@ -520,7 +517,7 @@
     }
     .div__copy {
         display: flex;
-        background-color: rgb(17, 141, 199);
+        background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         justify-items: center;
         justify-content: center;
         align-items: center;
