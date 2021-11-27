@@ -18,7 +18,7 @@
     }
     header{
         grid-area: header;
-        background-color: rgb(42, 140, 201);
+        background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         border: rgb(0, 0, 0) solid 5px;
         display: flex;
         width: auto;
@@ -33,6 +33,7 @@
     
     main{
         grid-area: main;
+        background-image: linear-gradient(to left,rgb(198, 213, 223), rgb(154, 157, 167));
         display: flex;
         width: auto;
         height: max-content;
@@ -45,7 +46,7 @@
         display: flex;
         width: auto;
         height: 200px;
-        background-color: rgb(42, 140, 201);
+        background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         justify-content: space-between;
         border: rgb(0, 0, 0) solid 5px;
         
@@ -217,7 +218,7 @@
     }
     .div__copy {
         display: flex;
-        background-color: rgb(17, 141, 199);
+        background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         width: auto;
         border: solid 4px black;
         justify-items: center;
@@ -235,7 +236,7 @@
         align-items: center;
         width: fit-max;
         height: fit-content;
-        background-color: rgb(17, 141, 199);
+        background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         border: black solid 5px;
         padding:  3%;
         margin: 5% 15%;
@@ -249,7 +250,7 @@
         justify-content: center;
         justify-items: center;
         align-items: center;
-        background-color: rgb(17, 141, 199);
+        background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         border: black solid 5px;
         padding:  3%;
         margin: 5% 15%;
@@ -261,7 +262,7 @@
         justify-content: center;
         justify-items: center;
         align-items: center;
-        background-color: rgb(17, 141, 199);
+        background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         border: black solid 5px;
         padding:  3%;
         margin: 5% 15%;
@@ -373,6 +374,7 @@
     }
     main{
         grid-area: main;
+        background-image: linear-gradient(to left,rgb(198, 213, 223), rgb(154, 157, 167));
         display: flex;
         justify-content: center;
         justify-items: center;
@@ -388,7 +390,6 @@
         
     }
    
-    
     
     .flex {
         display: flex;
@@ -529,7 +530,7 @@
     .Autoridades{
         display: flex;
         justify-content: center;
-        background-color: rgb(17, 141, 199);
+        background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         border: black solid 5px;
         padding: 3%;
         color: blanchedalmond;
@@ -542,7 +543,7 @@
         justify-content: center;
         align-items: center;
         justify-items: center;
-        background-color: rgb(17, 141, 199);
+        background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         border: black solid 5px;
         padding: 3%;
         color: blanchedalmond;
@@ -551,7 +552,7 @@
     .Instalaciones {
         display: flex;
         justify-content: center;
-        background-color: rgb(17, 141, 199);
+        background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         border: black solid 5px;
         padding: 3%;
         color: blanchedalmond;
