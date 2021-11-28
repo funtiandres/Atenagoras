@@ -424,12 +424,7 @@
         justify-items: center;
         align-items: center;
     }
-    .div__redes {
-        display: flex;
-        justify-items: center;
-        align-items: center;
-        
-    }
+    
     
     
     .div__imgLogo {
@@ -681,10 +676,54 @@
     }
     .section__footer {
         display: flex;
+        justify-content: space-between;
+        
     }
     .section__direccion {
         display: flex;
         flex-wrap: wrap;
+    }
+    .div__redes {
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    .imagen__Bachiller {
+        display: flex;
+        width: 400px;
+        height: 300px;
+    }
+    .section__Bachiller {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 100px 0px;
+        
+    }
+     .div__Bachiller {
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+
+
+    } 
+    .h3__Bachiller1 {
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        justify-content: center;
+        text-align: center;
+        justify-items: center;
+        
+    }
+    .div__direccion {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+        width: 300px;
     }
 
     /* .div__instalaciones2 {
