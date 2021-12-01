@@ -1,34 +1,42 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atenagoras</title>
+    <!-- css animate -->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+    <!-- css animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- css bs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- mi css -->
     <link rel="stylesheet" href="../../css/estilo.css">
 </head>
 <body>
-    <div class="gridContainer ">
+    <div class="Container ">
         <!-- inicio header -->
        
-        <header>
+        <header class=" bg__azul animate__animated animate__pulse   col-lg-12 col-sm-12  ">
            
-            <div class="div__imgLogo ">
-                  <img class= "imgLogo flex" src="../../assets/escudo.png" alt="Atenagoras" class="logo_imagen">
+            <div class="col-lg-12 col-sm-12 d-flex justify-content-center">
+                  <img class= "imgLogo  " src="../../assets/escudo.png" alt="Atenagoras" class="logo_imagen">
             </div>
+           
         
-            <div class="div__nav">
-               <nav class="nav flex">
-                   <ul class="ul_listType ">
+            <div class=" div__nav--header d-flex justify-content-center  col-lg-12">
+               <nav class="nav  col-lg-12" >
+                   <ul class="ul_listType d-flex justify-content-center  col-lg-12 ">
                        <li>
                            <a class="lista__nav" href="../../index.html">Instituto</a>
-                           <a class="lista__nav" href="../planesdeestudio.html">Planes de estudio</a>
-                           <a class="lista__nav" href="../ingreso.html">Ingreso</a>
-                           <a class="lista__nav" href="../proyectos.html">Proyectos</a>
-                           <a class="lista__nav" href="../contacto.html">Contacto</a>
+                           <a class="lista__nav" href="../pages/planesdeestudio.html">Planes de estudio</a>
+                           <a class="lista__nav" href="../pages/ingreso.html">Ingreso</a>
+                           <a class="lista__nav" href="../pages/proyectos.html">Proyectos</a>
+                           <a class="lista__nav" href="../pages/contacto.html">Contacto</a>
    
                        </li>
                    </ul>
@@ -37,21 +45,23 @@
        </header>
     <!-- fin header -->
     <!-- incio main -->
-        <main class="flex">
-            <section>
+        <main class="row">
+            <section class="section__autoridades row d-flex justify-content-center">
+                <div class="col-lg-8 d-flex justify-content-center">
                 <h1 class="h1__autoridades">
                     AUTORIDADES
                 </h1>
-            </section>
-            <div>
-                  <h2 class="h2__autoridades--parrafo">
+            </div>
+            
+            <div class="col-lg-8 d-flex justify-content-center">
+                  <h2 class="h2__autoridades--parrafo ">
                       <p class="parrafo">
-                          Un equipo humano docente y no docente; es seleccionado bajo la exhaustiva mirada de aspectos, como su formación, trayectoria, capacitación y, por sobre todo, su vocación de servicio. <br>Contamos con un gabinete de orientación que se ocupará de analizar, evaluar, prevenir, y orientar las diferentes dificultades que se presenten durante el trayecto académico de los alumnos.
+                          Un equipo humano docente y no docente; es seleccionado bajo la exhaustiva mirada de aspectos, como su formación, trayectoria, capacitación y, por sobre todo, su vocación de servicio. Contamos con un gabinete de orientación que se ocupará de analizar, evaluar, prevenir, y orientar las diferentes dificultades que se presenten durante el trayecto académico de los alumnos.
                       </p>
         
-                  </h2>
+                    </h2>
              </div>
-             <div>
+             <div class="col-lg-8 d-flex justify-content-center">
                  <table border="1px">
                      <tr>
                          <th>
@@ -122,124 +132,130 @@
         </th>
         
     
-   </tr>
-   <tr>
-    <th>
-        Prof. Flor Costa 
-    </th>
-    <th>
-        Preceptora 
-    </th>
+        </tr>
+        <tr>
+         <th>
+              Prof. Flor Costa 
+         </th>
+         <th>
+              Preceptora 
+         </th>
     
 
-</tr>
-<tr>
-    <th>
-        Prof. Martín Fogel 
-    </th>
-    <th>
+            </tr>
+            <tr>
+            <th>
+                  Prof. Martín Fogel 
+            </th>
+             <th>
        
-        Preceptor
+               Preceptor
 
-    </th>
+             </th>
     
 
-</tr>
-<tr>
-    <th>
-        Prof. Jorge Alejandro Triantafilu 
-    </th>
-    <th>
+            </tr>
+            <tr>
+             <th>
+                Prof. Jorge Alejandro Triantafilu 
+              </th>
+              <th>
        	
-        Ayudante del Laboratorio de Computación
+                 Ayudante del Laboratorio de Computación
 
-    </th>
+             </th>
     
 
-</tr>
-<tr>
-    <th>
-        Alonso, Mónica
-        Bazas, Adriana
-        Budzvicky, Karina
-        Casalnuovo, Ayelén
-        Ciravolo, Néstor
-        Davonis, Helena
-        Fritzler, Dante
-        Furgiuele, Verónica
-        Gonzalez, Ignacio
-        Herrera, Laura
-        Ketses, Ciriaco
-        Lopez, Camila
-        Menestrina, Gastón
-        Montiel, Héctor
-        More, Eliana
-        Nicolaou, Sofía
-        Ortega, Verónica
-        Paez Rehermann, Valeria
-        Sensat, Viviana
-        Sutton, Claudio
-        Urricariet, María del Milagro
-        Winer, Malena 
-    </th>
-    <th>
-        Cuerpo Docente 
-    </th>
+            </tr>
+            <tr>
+              <th>
+                Alonso, Mónica
+                Bazas, Adriana
+                Budzvicky, Karina
+                Casalnuovo, Ayelén
+                Ciravolo, Néstor
+                Davonis, Helena
+                Fritzler, Dante
+                Furgiuele, Verónica
+                Gonzalez, Ignacio
+                Herrera, Laura
+                Ketses, Ciriaco
+                Lopez, Camila
+                Menestrina, Gastón
+                Montiel, Héctor
+                More, Eliana
+                Nicolaou, Sofía
+                Ortega, Verónica
+                Paez Rehermann, Valeria
+                Sensat, Viviana
+                Sutton, Claudio
+                Urricariet, María del Milagro
+                Winer, Malena 
+            </th>
+              <th>
+              Cuerpo Docente 
+             </th>
     
 
-</tr>
-<tr>
-    <th>
-        Gonzalez, Julio 
-    </th>
-    <th>
-        No Docente 
-    </th>
+            </tr>
+            <tr>
+             <th>
+               Gonzalez, Julio 
+             </th>
+             <th>
+              No Docente 
+             </th>
     
 
-</tr>
+            </tr>
                                          
                  </table>
              </div>
+            </section>
            
         </main>
               
         <!-- fin main -->
     
     <!-- inicio footer -->
-    <footer >
-        <div class="div__logo2">
-            <img class="imgLogo" src="../../assets/escudo.png" alt="Atenagoras">
+    <footer class="row bg__azul" >
+        <section class="section__logo--footer col-lg-4 col-sm-4 d-flex  justify-content-start">
+             <div class="div__logo2">
+                 <img class="imgLogo" src="../../assets/escudo.png" alt="Atenagoras">
                         
-        </div>
-        <section class="section__footer">
-              <div class="div__redes ">
+             </div>
+        </section>
+        <section class="section__redes--footer col-lg-4 col-sm-4 d-flex justify-content-between ">
+              <div class="div__redes align-self-center ">
                    <a href="https://twitter.com/atenagoras_1" target="_black"><img class="imgRedes" src="../../assets/twitter.png" alt="twitter"></a>
              </div>
-             <div class="div__redes ">
+             <div class="div__redes align-self-center ">
                  <a href="https://www.facebook.com/atenagoras1/" target="_black"><img class="imgRedes" src="../../assets/facebook.png" alt="facebook"></a>
               </div>
-              <div class="div__redes">
+              <div class="div__redes align-self-center ">
                  <a href="https://instagram.com/atenagoras_1?utm_medium=copy_link" target="_black"><img class="imgRedes" src="../../assets/instagram.png" alt="instagram" ></a>
              </div>
         </section>
-        <section class="section__direccion">
-              <div class="div__direccion">
-                   <h4 class="datos">
-                      Lerma 242/52 CABA, Argentina 
-                      Telefono: 011 4777-2124 
-                      atenagoras1@gmail.com
-                  </h4>
+        <section class="section__direccion--footer col-lg-4 col-sm-4  d-flex justify-content-end  ">
+              <div class="div__direccion align-self-center  ">
+                   
+                       <h4 class="datos">Lerma 242/52 CABA, Argentina </h4>
+                       <h4 class="datos">Telefono: 011 4777-2124  </h4>
+                       <h4 class="datos"> atenagoras1@gmail.com </h4>
+                                           
+                    
                 </div>
         </section>
                     
               <!-- fin footer --> 
        
     </footer>
-    <div class="div__copy">
-        <img class="imgRedes" src="../../assets/copyright.png" alt="logocopyright">
+    <div class="div__copy  d-flex justify-content-center align-self-center col-lg-12 bg__azul" >
+        <img class="imgRedes " src="../../assets/copyright.png" alt="logocopyright">
     </div>
    
 </div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
 </html>

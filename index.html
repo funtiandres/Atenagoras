@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,25 +12,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
     <!-- css animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- css bs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!-- mi css -->
     <link rel="stylesheet" href="css/estilo.css">
 
 </head>
 <body>
     
- <div class="gridContainer ">
+ <div class="Container ">
      <!-- inicio header -->
     
-     <header class="animate__animated animate__pulse">
+     <header class=" bg__azul animate__animated animate__pulse   col-lg-12 col-sm-12  ">
         
-         <div class="div__imgLogo ">
-               <img class= "imgLogo flex" src="./assets/escudo.png" alt="Atenagoras" class="logo_imagen">
+         <div class="col-lg-12 col-sm-12 d-flex justify-content-center">
+               <img class= "imgLogo  " src="./assets/escudo.png" alt="Atenagoras" class="logo_imagen">
          </div>
         
      
-         <div class="div__nav">
-            <nav class="nav flex">
-                <ul class="ul_listType ">
+         <div class=" div__nav--header d-flex justify-content-center  col-lg-12">
+            <nav class="nav  col-lg-12" >
+                <ul class="ul_listType d-flex justify-content-center  col-lg-12 ">
                     <li>
                         <a class="lista__nav" href="./index.html">Instituto</a>
                         <a class="lista__nav" href="./pages/planesdeestudio.html">Planes de estudio</a>
@@ -46,14 +48,14 @@
         
     <!-- fin header -->
     <!-- incio main -->
-        <main class="flex">
-            <section class="section__img--portada ">
-                <div class="flex ">
-                    <img class="imgPortada animate__animated animate__pulse" src="./assets/imagenportada.jpg" alt="imagenportada">
+        <main class="row">
+            <section class=" section__img--portada  d-flex justify-content-center "> 
+                <div class=" col-lg-10 col-sm-12 d-flex justify-content-center">
+                    <img class="imgPortada animate__animated animate__pulse d-flex justify-content-center" src="./assets/imagenportada.jpg" alt="imagenportada">
                 </div>
             </section>
-            <section class="section__portal--parrafo">
-                <div class="div__parrafo">
+            <section class="section__portal--parrafo  col-lg-12 d-flex justify-content-center ">
+                <div class="div__parrafo  col-lg-8  col-sm-8 d-flex justify-content-center">
                     <h2>
                         <p class="portal__parrafo--texto">
                             EL INSTITUTO GRIEGO ATENÁGORAS I está cumpliendo treinta años de trayectoria en la Educación Argentina, única en Sudamérica como institución Helénica de Nivel Medio. Desde su fundación en 1991, realizada por su Eminencia Reverendísima Monseñor Georgios Gennadios Chrysoulakis, echó sus raíces en el barrio de Villa Crespo y creció formando generaciones de jóvenes bajo el lema; “Una persona plena para un Mundo nuevo”.
@@ -61,15 +63,15 @@
                     </h2>
                 </div>
             </section>
-            <section class="section__imagenes">
-                <div class="div__imagen">
-                    <a  href="./pages/instituto/autoridades.html"><h3 class="Autoridades animate__animated animate__pulse">Autoridades</h3><img class="imagenes1 animate__animated animate__pulse" src="./assets/autoridades.jpg" alt="Autoridades"></a>
+            <section class="section__imagenes row  col-lg-12 col-sm-12 d-flex justify-content-center ">
+                <div class="div__imagen  row col-lg-4 col-sm-12 d-flex justify-content-center ">
+                    <a  href="./pages/instituto/autoridades.html"><h3 class="Autoridades  d-flex justify-content-center animate__animated animate__pulse ">Autoridades</h3><img class="imagenes1    animate__animated animate__pulse" src="./assets/autoridades.jpg" alt="Autoridades"></a>
                 </div>
-                <div class="div__imagen">
-                    <a  href="./pages/instituto/ideario.html"><h3 class="Ideario animate__animated animate__pulse">Ideario</h3><img class="imagenes2 animate__animated animate__pulse"  src="./assets/ideario.jpg" alt="Ideario"></a>
+                <div class="div__imagen row  col-lg-4 col-sm-12 d-flex justify-content-center">
+                    <a  href="./pages/instituto/ideario.html"><h3 class="Ideario d-flex justify-content-center  animate__animated animate__pulse ">Ideario</h3><img class="imagenes2   animate__animated animate__pulse"  src="./assets/ideario.jpg" alt="Ideario"></a>
                 </div>
-                  <div class="div__imagen">
-                    <a  href="./pages/instituto/instalaciones.html"><h3 class="Instalaciones animate__animated animate__pulse">Instalaciones</h3><img class="imagenes3 animate__animated animate__pulse"  src="./assets/instalaciones2.jpg" alt="instalaciones"></a>
+                  <div class="div__imagen row col-lg-4 col-sm-12 d-flex justify-content-center">
+                    <a  href="./pages/instituto/instalaciones.html"><h3 class="Instalaciones d-flex justify-content-center  animate__animated animate__pulse">Instalaciones</h3><img class="imagenes3   animate__animated animate__pulse"  src="./assets/instalaciones2.jpg" alt="instalaciones"></a>
                 </div>
             </section>
             
@@ -80,39 +82,44 @@
      <!-- fin main -->
     
      <!-- inicio footer -->
-    <footer >
-        <div class="div__logo2">
-            <img class="imgLogo" src="./assets/escudo.png" alt="Atenagoras">
+    <footer class="row bg__azul" >
+        <section class="section__logo--footer col-lg-4 col-sm-4 d-flex  justify-content-start">
+             <div class="div__logo2">
+                 <img class="imgLogo" src="./assets/escudo.png" alt="Atenagoras">
                         
-        </div>
-        <section class="section__footer">
-              <div class="div__redes ">
+             </div>
+        </section>
+        <section class="section__redes--footer col-lg-4 col-sm-4 d-flex justify-content-between ">
+              <div class="div__redes align-self-center ">
                    <a href="https://twitter.com/atenagoras_1" target="_black"><img class="imgRedes" src="./assets/twitter.png" alt="twitter"></a>
              </div>
-             <div class="div__redes ">
+             <div class="div__redes align-self-center ">
                  <a href="https://www.facebook.com/atenagoras1/" target="_black"><img class="imgRedes" src="./assets/facebook.png" alt="facebook"></a>
               </div>
-              <div class="div__redes">
+              <div class="div__redes align-self-center ">
                  <a href="https://instagram.com/atenagoras_1?utm_medium=copy_link" target="_black"><img class="imgRedes" src="./assets/instagram.png" alt="instagram" ></a>
              </div>
         </section>
-        <section class="section__direccion">
-              <div class="div__direccion">
-                   <h4 class="datos">
-                      Lerma 242/52 CABA, Argentina 
-                      Telefono: 011 4777-2124 
-                      atenagoras1@gmail.com
-                  </h4>
+        <section class="section__direccion--footer col-lg-4 col-sm-4  d-flex justify-content-end  ">
+              <div class="div__direccion align-self-center  ">
+                   
+                       <h4 class="datos">Lerma 242/52 CABA, Argentina </h4>
+                       <h4 class="datos">Telefono: 011 4777-2124  </h4>
+                       <h4 class="datos"> atenagoras1@gmail.com </h4>
+                                           
+                    
                 </div>
         </section>
                     
               <!-- fin footer --> 
        
     </footer>
-    <div class="div__copy">
-        <img class="imgRedes" src="./assets/copyright.png" alt="logocopyright">
+    <div class="div__copy  d-flex justify-content-center align-self-center col-lg-12 bg__azul" >
+        <img class="imgRedes " src="./assets/copyright.png" alt="logocopyright">
     </div>
    
 </div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
 </html>

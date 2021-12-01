@@ -1,10 +1,186 @@
-*{
+.Container {
+    font-family: Zen Antique, Verdana  ;
+}
+body {
+    background-image: linear-gradient(to left,rgb(221, 228, 231), rgb(107, 109, 112));
+}
+
+
+.imgLogo {
+    width: 120px;
+    height: 150px;
+    
+}
+.imgPortada {
+    width: 80%;
+    height: auto;
+}
+.bg__azul {
+    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
+    border: solid black 5px;
+}
+.ul_listType {
+    text-decoration: none;
+    text-decoration-style: none;
+    list-style-type: none;
+}
+.div__nav--header {
+    margin-top: 20px;
+}
+.portal__parrafo--texto {
+    margin: 5px;  
+    font-size: 18px;
+    width: 1000px;
+    height: 150px;
+    
+                  
+}
+.section__portal--parrafo {
+    margin: 20px;
+        
+}
+.section__img--portada {
+    margin: 100px 0;
+}
+.div__parrafo {
+    background-color: whitesmoke;
+    border-radius: 50px ;
+    border: rgb(133, 136, 153) solid 4px;
+}
+
+.lista__nav {
+    background-color: white ;
+    background-image: linear-gradient(to left,rgb(156, 184, 201), rgb(37, 78, 153));
+    border-radius:  10px;
+    color: white;
+    font-size: 20px ;
+}
+.Autoridades {
+    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
+    border-radius: 10px solid black;
+    color: blanchedalmond;
+    border: 5px outset white;    
+}
+.Ideario {
+    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
+    color: blanchedalmond;
+    border: 5px outset white;
+}
+.Instalaciones {
+    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
+    color: blanchedalmond;
+    border: 5px outset white;
+}
+.imagenes1{
+    width: 300px;
+    height: 300px;
+    transition: height 0.5s,width 0.5s;
+    margin: 2% auto ;
+    border: 5px outset whitesmoke;  
+    
+    
+}
+.imagenes2{
+    width: 300px;
+    height: 300px;
+    transition: height 0.5s,width 0.5s;
+    margin: 2% auto ;
+    border: 5px outset whitesmoke;  
+    
+    
+}
+.imagenes3{
+    width: 300px;
+    height: 300px;
+    transition: height 0.5s,width 0.5s;
+    margin: 2% auto ;
+    border: 5px outset whitesmoke;
+        
+}
+.imagenes1:hover {
+    height: 310px;
+    width: 310px;
+}
+.imagenes2:hover {
+    height: 310px;
+    width: 310px;
+}
+.imagenes3:hover {
+    height: 310px;
+    width: 310px;
+}
+.section__imagenes {
+    margin: 80px 0;
+}
+.imgRedes{
+    width: 50px;
+    height: 50px;
+}
+.datos {
+    font-size: 18px;
+}
+
+.div__copy {
+    
+    margin: 15px 0;
+    padding: 10px 0;
+    
+}
+.div__logo2 {
+    padding: 10px;
+}
+                                                        /* PLANES DE ESTUDIO */
+.imagen__Bachiller {
+    width: 400px;
+    height: 300px;
+    margin: 50px 0px 100px;
+    color: blanchedalmond;
+    border: 5px outset white;  
+}
+.h3__Bachiller1 {
+    font-size: 24px;
+    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
+    border-radius: 10px solid black;
+    color: blanchedalmond;
+    border: 5px outset white;   
+}
+.h3__Bachiller2 {
+    font-size: 24px;
+    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
+    border-radius: 10px solid black;
+    color: blanchedalmond;
+    border: 5px outset white;   
+}
+                                                        /* AUTORIDADES */
+.parrafo {
+    font-size: 26px;
+}
+.section__autoridades {
+    margin: 100px 0px 100px 0px;
+}
+                                                        /* IDEARIO */
+    .p__ideario {
+        font-size: 22px;
+    }                                                    
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
     margin: 0;
     padding: 0;
     font-family: Zen Antique, Verdana  ;
 }
 /*VISTA MOBILE*/
-@media only screen and (min-width: 0px) and (max-width: 768px){
+/* @media only screen and (min-width: 0px) and (max-width: 768px){
     .gridContainer{
         display: grid;
         grid-template-areas: 
@@ -390,9 +566,9 @@
         width: auto;
 
     } */
-}
+/* } */
 /* VISTA DESKTOP*/
-@media only screen and (min-width: 769px)  {
+  /* @media only screen and (min-width: 769px)  {
 
 
     .gridContainer{
@@ -405,9 +581,9 @@
         grid-template-rows: fit-content auto fit-content;
         
     
-    }
-    header{
-        grid-area: header;
+    } 
+     header{
+        grid-area: header; 
         background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         border: rgb(0, 0, 0) solid 5px;
         justify-content: center;
@@ -418,7 +594,7 @@
     
     }
     main{
-        grid-area: main;
+        grid-area: main; 
         background-image: linear-gradient(to left,rgb(198, 213, 223), rgb(154, 157, 167));
         display: flex;
         justify-content: center;
@@ -426,16 +602,16 @@
         align-items: center;
     }
     footer{
-        grid-area: footer;  
+         grid-area: footer;   
         display: flex;
         height: fit-content;
         background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         justify-content: space-between;
         border: rgb(0, 0, 0) solid 5px;
         
-    }
+    } 
    
-    
+     
     .flex {
         display: flex;
         display: inline-block;
@@ -782,450 +958,5 @@
     } */
 
     
-   
-    
-          
 
-}
-/*.logo{
-    justify-content: center;
-    position: relative;
-    text-align: center ;
-    width: 100px;
-    height: 120px;
-    left: 50%;
-
-}
-
-
-
-.nav {
-
-justify-content: center;
-position: relative;
-left: 35%;
-top: 20px;
-top: auto;
-
-
-
-}
-
-.ul_listType {
-    list-style-type: none;
-    
-    }
-    
-
-.lista__nav {
-    
-    position: relative;
-    text-decoration: none;
-    color: white;
-    justify-content: center;
-    background: 3D56B2;
-    border-radius: 20%;
-    border-style: outset;
-    font-size: 25px;
-    font-family: sans-serif, Verdana  ;
-    
-           
-   
-}
-
-
-header {
-    background-color: rgb(17, 141, 199);
-    position: sticky;
-    top: 0;
-    border: #E6E6E6 solid 5px;
-    z-index: 1;
-  
-    
-}
-
-.portal {
-    position: relative;
-    width: 70%;
-    height: 500px;
-    margin: 60px ;
-    left: 10%;
-}
-
-.portal__parrafo {
-    position: relative;
-    justify-content: center;
-    justify-items: center;
-    
-    
-}
-
-.portal__parrafo--texto {
-    font-family: 'Zen Antique';
-    position: relative;
-    font-size: 18px;
-    width: 70%;
-    height: 40%;
-    margin: auto;  
-    text-align: center;  
-    
-    }
-
-.imagenes {
-        position: relative;
-        width: 300px;
-        height: 300px;
-
-        
-    }
-
- .section__imagenes{
-        position: relative;
-        justify-content: center;
-        justify-items: center;
-        width: 100%;
-        height: 800px;
-        
-    }
-
-    .Autoridades {
-        position: relative;
-        justify-content: center;
-        top: 400px;
-        left: 40%;
-        text-decoration: rgb(17, 141, 199);
-
-
-    }
-    .Ideario {
-        position: relative;
-        justify-content: center;
-        text-decoration: rgb(17, 141, 199);
-        top: 400px;
-        left: 40%;
-        
-
-    }
-    .Instalaciones {
-        position: relative;
-        justify-content: center;
-        top: 400px;
-        left: 40%;
-        
-
-    }
-
- .imagenes__redes {
-        position: absolute;
-        width: 45px;
-        height: 50px;
-        
-        
-    }
-
- .logo2 {
-    justify-content: center;
-    position: relative;
-    text-align: center ;
-    margin: 5px;
-    top: 15px;
-    width: 100px;
-    height: 120px;
-   
-    }
-
- .div__imagen1   {
-     
-        position: relative;
-        display: inline-block;
-        margin: 100px;
-        left: 200px;
-
-    }
-
- .div__imagen2 {
-        position: relative;
-        display: inline-block;
-        margin: 100px;
-        left: 200px;
-        
-
-        
-
-    }
- .div__imagen3 {
-        position: relative;
-        display: inline-block;
-        margin: 100px;
-        left: 200px;
-        
-    }
-
-
-  
-
-    footer {
-        background-color: rgb(17, 141, 199);
-        border: slategray solid 5px;
-        position: relative;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 170px ;
-            
-        }
-
-        .div__logo2{
-            position: relative;
-            width: 400px;
-            height: 180px;
-        }
-
-    .div__redes1 {
-        position: relative;
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        left: 60%;
-        top: -120px;        
-
-    }
-
-    .div__redes2 {
-        position: relative;
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        left: 47%;
-        top: -120px;
-
-    }
-
-    .div__redes3 {
-        position: relative;
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        left: 35%;
-        top: -120px;
-        
-    }
-
-    .div__copy {
-        position: relative;
-        background-color: rgb(17, 141, 199);
-        margin: 0;
-        padding: 0;
-        width: auto;
-        height: 50px;
-        margin: 5px;
-        left: 50%;
-
-    }
-
-    .div__copy2 {
-        position: relative;
-        background-color: rgb(17, 141, 199);
-        border: slategray solid 5px;
-        width: 100%;
-        height: 50px;
-       top: -50px;
-       margin: 0;
-       padding: 0;
-        
-
-    }
-
-    .datos {
-        font-family: "Zen Antique";
-        font-size: 20px;
-                
-    }
-
-    .div__datos{ 
-        position: relative;
-        justify-content: center;
-        text-align: right;
-        padding: 0px 60px ;
-        top: -220px;
-        left: 65%;
-        width: 500px;
-        height: 10px;
-     }
-        
-     .section__Bachiller{
-         position: relative;
-         margin: 50px;
-         padding: 5px;
-         width: 100%;
-         height: 500px;
-         
-
-     }
-
-     .imagen__Bachiller{
-         width: 400px;
-         height: 300px;
-     }
-
-    .div__Bachiller{
-        position: relative;
-        display: inline-block;
-        margin: 10px 25px ;
-        padding: 5px 50px;
-        left: 250px;
-        width: 600px;
-        height: 500px;
-        
-
-    }
-
-    .h3__Bachiller1{
-       display: inline-block;
-       width: 400px;
-       height: 50px;
-       
-       
-       
-       
-    }
-
-    .h3__Bachiller2{
-       display: inline-block;
-       
-        
-    }
-
-    .iframe{
-        width: 500px;
-        height: 400px;
-
-    }
-
-    .div__iframe{
-        margin: 100px 40%;
-    }
-    .div__input{
-        display: inline-block;
-        margin: -80px -140px;
-       
-    }
-
-    .input__nombre{
-        display: flex;
-        margin: 10px 900px;
-        width: 500px;
-        
-    }
-    .input__mail{
-        display: flex;
-        margin: 10px 900px;
-        width: 500px;
-    }
-    .input__tel{
-        display: flex;
-        margin: 10px 900px;
-        width: 500px;
-    }
-    .input__texto{
-        display: flex;
-        margin: 10px 900px;
-        width: 500px;
-    }
-    .enviar{
-        display: inline;
-        margin: 10px 900px;
-        
-    }
-    .reset{
-        display: inline;
-        margin: 10px 900px;
-    }
-
-    .h1__autoridades{
-        display: inline-block;
-        margin: 50px 50%;
-
-    }
-
-    .h2__autoridades--parrafo{
-        margin: 0px 40px;
-        width: 1900px;
-        height: 80px;
-    }
-        .parrafo{
-            font-family: "Zen Antique";
-            font-size: 20px;
-    } 
-
-    .p__ideario{
-        font-family: "Zen Antique";
-        font-size: 20px;
-    }
-    .h1__ideario{
-        font-family: "Zen Antique";
-        font-size: 20px;
-    }
-    .div__ideario{
-        display: inline-block;
-        margin: 10px 50%;
-
-    }
-    .img__instalaciones--tamaño{
-        width: 400px;
-        height:300px;
-    }
-    .div__intalaciones{
-        display: inline;
-        width: 400px;
-        height: 300px;
-    }
-    .h1__instalaciones{
-        display: inline-block;
-        margin: 50px 50%;
-        font-family: "Zen Antique";
-            font-size: 20px;
-    }
-    
-    .div__instalaciones{
-        display: flexbox;
-        width: 1000px;
-        height: 300px;
-        
-    }
-    .section__instalaciones{
-        display: flex;
-        width: 1000px;
-        height: 400px;
-        margin: 0px 500px;
-        
-    }
-   .section__img--instalaciones{
-       display: flex;
-       
-       
-   }
-   .h2__seguridad{
-    display: inline-block;
-    margin: 50px 50%;
-    font-family: "Zen Antique";
-        font-size: 20px;
-   }
-   .h3__seguridad{
-    display: inline;
-    font-family: "Zen Antique";
-    font-size: 18px;
-   }
-   .h2__edificio{
-    display: inline-block;
-    margin: 50px 50%;
-    font-family: "Zen Antique";
-    font-size: 18px;
-   }
-   .h3__edificio{
-    display: inline-block;
-    font-family: "Zen Antique";
-    font-size: 18px;
-   }
-   
-
+/* }     */
