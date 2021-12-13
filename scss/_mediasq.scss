@@ -1,0 +1,112 @@
+
+   
+    
+   
+         /* MEDIAS QUERIES VISTA MOBILE */
+@media only screen and (min-width: 0px) and (max-width: 768px){
+            /* INDEX */
+.imagenes1{
+width: 200px;
+height: 200px;
+transition: height 0.5s,width 0.5s;
+margin: 2% auto ;
+border: 5px outset whitesmoke;  
+                        
+                        
+}
+.imagenes2{
+width: 200px;
+height: 200px;
+transition: height 0.5s,width 0.5s;
+margin: 2% auto ;
+border: 5px outset whitesmoke;  
+                        
+                        
+}
+.imagenes3{
+width: 200px;
+height: 200px;
+transition: height 0.5s,width 0.5s;
+margin: 2% auto ;
+border: 5px outset whitesmoke; 
+                            
+}
+.imagenes1:hover {
+height: 300px;
+width: 300px;
+}
+.imagenes2:hover {
+height: 300px;
+width: 300px;
+}
+.imagenes3:hover {
+height: 300px;
+width: 300px;
+}
+.section__imagenes {
+display: flex;
+flex-direction: column;
+}
+.div__general--footer {
+display: flex;
+flex-direction: column;
+}
+.imgLogo {
+width: 100px;
+height: 130px;
+}
+.datos {
+color: blanchedalmond;
+font-size: 14px;
+                        
+}
+.div__footer--datos {
+justify-content: center;
+align-self: center;
+}
+
+.imgPortada {
+width: 300px;
+height: 200px;
+}
+
+.portal__parrafo--texto {
+font-size: 14px;
+}
+
+                /* AUTORIDADES */
+.parrafo {
+font-size: 18px;
+}
+.section__autoridades {
+margin: 70px 0px ;
+}
+.section__tabla--autoridades {
+margin: 0 0 70px 0;
+}
+.h1__autoridades {
+font-size: 24px;
+}
+                        /* IDEARIO */
+
+.h1__ideario {
+font-size: 24px;
+}        
+.p__ideario {
+font-size: 14px;
+}
+.section__ideario--titulo {
+margin: 25px 0;
+}
+
+                                /* INSTALACIONES */
+
+.img__instalaciones--tamaño {
+width: 220px;
+height: 200px;
+}
+}
+
+    
+    
+         

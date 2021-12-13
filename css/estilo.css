@@ -1,301 +1,231 @@
+@charset "UTF-8";
 * {
-    margin: 0;
-    padding: 0;
-}
-.Container {
-    font-family: Zen Antique, Verdana  ;
-    
-}
-body {
-    background-image: linear-gradient(to left,rgb(221, 228, 231), rgb(107, 109, 112));
-}
+  margin: 0;
+  padding: 0; }
 
+.Container {
+  font-family: Zen Antique, Verdana; }
+
+body {
+  background-image: linear-gradient(to left, #dde4e7, #6b6d70); }
+
+.bg__azul {
+  background-image: linear-gradient(to left, #2a8cc9, #020a1a);
+  border: solid black 5px; }
 
 .imgLogo {
-    width: 120px;
-    height: 150px;
-    
-}
-.imgPortada {
-    width: 70%;
-    height: auto;
-}
-.bg__azul {
-    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
-    border: solid black 5px;
-}
-.ul_listType {
-    text-decoration: none;
-    text-decoration-style: none;
-    list-style-type: none;
-}
-.div__nav--header {
-    margin-top: 20px;
-}
-.portal__parrafo--texto {
-    margin: 5px;  
-    font-size: 18px;
-    
-}
+  width: 120px;
+  height: 150px; }
 
-.section__img--portada {
-    margin: 100px 0px;
-    
-    
-}
-.div__parrafo {
-    background-color: whitesmoke;
-    border-radius: 50px ;
-    border: rgb(133, 136, 153) solid 4px;
-}
-.div__portal--parrafo {
-    width: 65%;
-    height: auto;
-}
+.ul_listType {
+  text-decoration: none;
+  text-decoration-style: none;
+  list-style-type: none; }
+
+.div__nav--header {
+  margin-top: 20px; }
 
 .lista__nav {
-    background-color: white ;
-    background-image: linear-gradient(to left,rgb(156, 184, 201), rgb(37, 78, 153));
-    border-radius:  10px;
-    color: white;
-    font-size: 20px ;
-}
-.Autoridades {
-    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
-    border-radius: 10px solid black;
-    color: blanchedalmond;
-    border: 5px outset white;    
-}
-.Ideario {
-    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
-    color: blanchedalmond;
-    border: 5px outset white;
-}
-.Instalaciones {
-    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
-    color: blanchedalmond;
-    border: 5px outset white;
-}
-.imagenes1{
-    width: 300px;
-    height: 300px;
-    transition: height 0.5s,width 0.5s;
-    margin: 2% auto ;
-    border: 5px outset whitesmoke;  
-    
-    
-}
-.imagenes2{
-    width: 300px;
-    height: 300px;
-    transition: height 0.5s,width 0.5s;
-    margin: 2% auto ;
-    border: 5px outset whitesmoke;  
-    
-    
-}
-.imagenes3{
-    width: 300px;
-    height: 300px;
-    transition: height 0.5s,width 0.5s;
-    margin: 2% auto ;
-    border: 5px outset whitesmoke;
-        
-}
-.imagenes1:hover {
-    height: 310px;
-    width: 310px;
-}
-.imagenes2:hover {
-    height: 310px;
-    width: 310px;
-}
-.imagenes3:hover {
-    height: 310px;
-    width: 310px;
-}
-.section__imagenes {
-    margin: 80px 0;
-}
-.imgRedes{
-    width: 50px;
-    height: 50px;
-}
-.datos {
-    font-size: 18px;
-}
+  background-color: white;
+  background-image: linear-gradient(to left, #9cb8c9, #254e99);
+  border-radius: 10px;
+  color: white;
+  font-size: 20px; }
 
-  
+.section__img--portada {
+  margin: 100px 0px; }
+
+.imgPortada {
+  width: 70%;
+  height: auto; }
+
+.div__parrafo {
+  background-color: whitesmoke;
+  border-radius: 50px;
+  border: #858899 solid 4px; }
+
+.div__portal--parrafo {
+  width: 65%;
+  height: auto; }
+
+.portal__parrafo--texto {
+  margin: 5px;
+  font-size: 18px; }
+
+.Autoridades {
+  background-image: linear-gradient(to left, #2a8cc9, #020a1a);
+  border-radius: 10px solid black;
+  color: blanchedalmond;
+  border: 5px outset white; }
+
+.Ideario {
+  background-image: linear-gradient(to left, #2a8cc9, #020a1a);
+  color: blanchedalmond;
+  border: 5px outset white; }
+
+.Instalaciones {
+  background-image: linear-gradient(to left, #2a8cc9, #020a1a);
+  color: blanchedalmond;
+  border: 5px outset white; }
+
+.imagenes1 {
+  width: 300px;
+  height: 300px;
+  transition: height 0.5s,width 0.5s;
+  margin: 2% auto;
+  border: 5px outset whitesmoke; }
+
+.imagenes2 {
+  width: 300px;
+  height: 300px;
+  transition: height 0.5s,width 0.5s;
+  margin: 2% auto;
+  border: 5px outset whitesmoke; }
+
+.imagenes3 {
+  width: 300px;
+  height: 300px;
+  transition: height 0.5s,width 0.5s;
+  margin: 2% auto;
+  border: 5px outset whitesmoke; }
+
+.imagenes1:hover {
+  height: 310px;
+  width: 310px; }
+
+.imagenes2:hover {
+  height: 310px;
+  width: 310px; }
+
+.imagenes3:hover {
+  height: 310px;
+  width: 310px; }
+
+.section__imagenes {
+  margin: 80px 0; }
+
+/* PLANES DE ESTUDIO */
+.imagen__Bachiller {
+  width: 400px;
+  height: 300px;
+  margin: 50px 0px 100px;
+  color: blanchedalmond;
+  border: 5px outset white; }
+
+.h3__Bachiller1 {
+  font-size: 24px;
+  background-image: linear-gradient(to left, #2a8cc9, #020a1a);
+  border-radius: 10px solid black;
+  color: blanchedalmond;
+  border: 5px outset white; }
+
+.h3__Bachiller2 {
+  font-size: 24px;
+  background-image: linear-gradient(to left, #2a8cc9, #020a1a);
+  border-radius: 10px solid black;
+  color: blanchedalmond;
+  border: 5px outset white; }
+
+/* AUTORIDADES */
+.parrafo {
+  font-size: 26px; }
+
+.section__tabla--autoridades {
+  margin: 0 0 100px 0; }
+
+.section__autoridades {
+  margin: 100px 0px; }
+
+/* IDEARIO */
+.p__ideario {
+  font-size: 22px; }
+
+/*INSTALACIONES  */
+.img__instalaciones--tamaño {
+  width: 440px;
+  height: 350px; }
+
+.imgRedes {
+  width: 50px;
+  height: 50px; }
+
+.datos {
+  font-size: 18px; }
 
 .div__copy {
-    
-    margin: 15px 0px;
-    padding: 10px 0px;
-    
-}
+  margin: 15px 0px;
+  padding: 10px 0px; }
 
-
-                                                        /* PLANES DE ESTUDIO */
-.imagen__Bachiller {
-    width: 400px;
-    height: 300px;
-    margin: 50px 0px 100px;
-    color: blanchedalmond;
-    border: 5px outset white;  
-}
-.h3__Bachiller1 {
-    font-size: 24px;
-    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
-    border-radius: 10px solid black;
-    color: blanchedalmond;
-    border: 5px outset white;   
-}
-.h3__Bachiller2 {
-    font-size: 24px;
-    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
-    border-radius: 10px solid black;
-    color: blanchedalmond;
-    border: 5px outset white;   
-}
-                                                        /* AUTORIDADES */
-.parrafo {
-    font-size: 26px;
-}
-.section__tabla--autoridades {
-    margin: 0 0 100px 0;
-}
-.section__autoridades {
-    margin: 100px 0px ;
-}
-                                                        /* IDEARIO */
-.p__ideario {
-    font-size: 22px;
-}              
-                                            /*INSTALACIONES  */
-.img__instalaciones--tamaño {
-width: 440px;
-height: 350px;
-}
-
-    
-                                            /* MEDIAS QUERIES VISTA MOBILE */
- @media only screen and (min-width: 0px) and (max-width: 768px){
-    /* INDEX */
-    .imagenes1{
-        width: 200px;
-        height: 200px;
-        transition: height 0.5s,width 0.5s;
-        margin: 2% auto ;
-        border: 5px outset whitesmoke;  
-        
-        
-    }
-    .imagenes2{
-        width: 200px;
-        height: 200px;
-        transition: height 0.5s,width 0.5s;
-        margin: 2% auto ;
-        border: 5px outset whitesmoke;  
-        
-        
-    }
-    .imagenes3{
-        width: 200px;
-        height: 200px;
-        transition: height 0.5s,width 0.5s;
-        margin: 2% auto ;
-        border: 5px outset whitesmoke; 
-            
-    }
-    .imagenes1:hover {
-        height: 300px;
-        width: 300px;
-    }
-    .imagenes2:hover {
-        height: 300px;
-        width: 300px;
-    }
-    .imagenes3:hover {
-        height: 300px;
-        width: 300px;
-    }
-    .section__imagenes {
-        display: flex;
-        flex-direction: column;
-    }
-    .div__general--footer {
-        display: flex;
-        flex-direction: column;
-    }
-    .imgLogo {
-        width: 100px;
-        height: 130px;
-    }
-    .datos {
-        color: blanchedalmond;
-        font-size: 14px;
-        
-    }
-    .div__footer--datos {
-        justify-content: center;
-        align-self: center;
-    }
-
-    .imgPortada {
-        width: 300px;
-        height: 200px;
-    }
-
-    .portal__parrafo--texto {
-        font-size: 14px;
-    }
-
-            /* AUTORIDADES */
-.parrafo {
-    font-size: 18px;
-}
-.section__autoridades {
-    margin: 70px 0px ;
-}
-.section__tabla--autoridades {
-    margin: 0 0 70px 0;
-}
-.h1__autoridades {
-    font-size: 24px;
-}
-        /* IDEARIO */
-
-.h1__ideario {
-    font-size: 24px;
-}        
-.p__ideario {
-    font-size: 14px;
-}
-.section__ideario--titulo {
-    margin: 25px 0;
-}
-
-                /* INSTALACIONES */
-
-.img__instalaciones--tamaño {
-    width: 220px;
+/* MEDIAS QUERIES VISTA MOBILE */
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  /* INDEX */
+  .imagenes1 {
+    width: 200px;
     height: 200px;
-}
-
-    
-    
-}                                     
-
-
-
-
-
-
-
-
-
-
-
+    transition: height 0.5s,width 0.5s;
+    margin: 2% auto;
+    border: 5px outset whitesmoke; }
+  .imagenes2 {
+    width: 200px;
+    height: 200px;
+    transition: height 0.5s,width 0.5s;
+    margin: 2% auto;
+    border: 5px outset whitesmoke; }
+  .imagenes3 {
+    width: 200px;
+    height: 200px;
+    transition: height 0.5s,width 0.5s;
+    margin: 2% auto;
+    border: 5px outset whitesmoke; }
+  .imagenes1:hover {
+    height: 300px;
+    width: 300px; }
+  .imagenes2:hover {
+    height: 300px;
+    width: 300px; }
+  .imagenes3:hover {
+    height: 300px;
+    width: 300px; }
+  .section__imagenes {
+    display: flex;
+    flex-direction: column; }
+  .div__general--footer {
+    display: flex;
+    flex-direction: column; }
+  .imgLogo {
+    width: 100px;
+    height: 130px; }
+  .datos {
+    color: blanchedalmond;
+    font-size: 14px; }
+  .div__footer--datos {
+    justify-content: center;
+    align-self: center; }
+  .imgPortada {
+    width: 300px;
+    height: 200px; }
+  .portal__parrafo--texto {
+    font-size: 14px; }
+  /* AUTORIDADES */
+  .parrafo {
+    font-size: 18px; }
+  .section__autoridades {
+    margin: 70px 0px; }
+  .section__tabla--autoridades {
+    margin: 0 0 70px 0; }
+  .h1__autoridades {
+    font-size: 24px; }
+  /* IDEARIO */
+  .h1__ideario {
+    font-size: 24px; }
+  .p__ideario {
+    font-size: 14px; }
+  .section__ideario--titulo {
+    margin: 25px 0; }
+  /* INSTALACIONES */
+  .img__instalaciones--tamaño {
+    width: 220px;
+    height: 200px; } }
 
 /* *{
     margin: 0;
@@ -691,7 +621,7 @@ height: 350px;
     } */
 /* } */
 /* VISTA DESKTOP*/
-  /* @media only screen and (min-width: 769px)  {
+/* @media only screen and (min-width: 769px)  {
 
 
     .gridContainer{
@@ -1079,7 +1009,4 @@ height: 350px;
         width: auto;
 
     } */
-
-    
-
 /* }     */

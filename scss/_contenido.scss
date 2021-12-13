@@ -1,0 +1,131 @@
+@import "colores";
+
+
+
+    .section__img--portada {
+        margin: 100px 0px;
+        
+        
+    }
+    
+    .imgPortada {
+        width: 70%;
+        height: auto;
+    }
+    .div__parrafo {
+        background-color: whitesmoke;
+        border-radius: 50px ;
+        border: rgb(133, 136, 153) solid 4px;
+    }
+    .div__portal--parrafo {
+        width: 65%;
+        height: auto;
+    }
+    .portal__parrafo--texto {
+        margin: 5px;  
+        font-size: 18px;
+        
+    }
+    
+    .Autoridades {
+        background-image: $bgAzul;
+        border-radius: 10px solid black;
+        color: $marcoBlanco;
+        border: 5px outset white;    
+    }
+    .Ideario {
+        background-image: $bgAzul;
+        color: $marcoBlanco;
+        border: 5px outset white;
+    }
+    .Instalaciones {
+        background-image: $bgAzul;
+        color: $marcoBlanco;
+        border: 5px outset white;
+    }
+    .imagenes1{
+        width: 300px;
+        height: 300px;
+        transition: height 0.5s,width 0.5s;
+        margin: 2% auto ;
+        border: 5px outset whitesmoke;  
+        
+        
+    }
+    .imagenes2{
+        width: 300px;
+        height: 300px;
+        transition: height 0.5s,width 0.5s;
+        margin: 2% auto ;
+        border: 5px outset whitesmoke;  
+        
+        
+    }
+    .imagenes3{
+        width: 300px;
+        height: 300px;
+        transition: height 0.5s,width 0.5s;
+        margin: 2% auto ;
+        border: 5px outset whitesmoke;
+            
+    }
+    .imagenes1:hover {
+        height: 310px;
+        width: 310px;
+    }
+    .imagenes2:hover {
+        height: 310px;
+        width: 310px;
+    }
+    .imagenes3:hover {
+        height: 310px;
+        width: 310px;
+    }
+    .section__imagenes {
+        margin: 80px 0;
+    }
+    
+    
+                                                            /* PLANES DE ESTUDIO */
+    .imagen__Bachiller {
+    width: 400px;
+    height: 300px;
+    margin: 50px 0px 100px;
+    color: blanchedalmond;
+    border: 5px outset white;  
+    }
+    .h3__Bachiller1 {
+    font-size: 24px;
+    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
+    border-radius: 10px solid black;
+    color: blanchedalmond;
+    border: 5px outset white;   
+    }
+    .h3__Bachiller2 {
+    font-size: 24px;
+    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
+    border-radius: 10px solid black;
+    color: blanchedalmond;
+    border: 5px outset white;   
+    }
+                                                            /* AUTORIDADES */
+    .parrafo {
+    font-size: 26px;
+    }
+    .section__tabla--autoridades {
+    margin: 0 0 100px 0;
+    }
+    .section__autoridades {
+    margin: 100px 0px ;
+    }
+                                                                /* IDEARIO */
+    .p__ideario {
+    font-size: 22px;
+    }              
+                                                                /*INSTALACIONES  */
+    .img__instalaciones--tamaño {
+    width: 440px;
+    height: 350px;
+    }
+    
+    
