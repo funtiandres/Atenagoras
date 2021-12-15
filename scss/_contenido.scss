@@ -1,6 +1,18 @@
 @import "colores";
-
-
+                                /*DECLARANDO VARIABLES PARA MAP-GET*/
+$estilos: (
+    color: whitesmoke,
+    w310: 310px,
+    h310: 310px
+);
+                                /*DECLARACION MIXIN*/
+@mixin estiloImagen ($width, $height,$border){
+    width: $width;
+    height: $height;
+    border: $border;  
+    
+}
+                                /*FIN DECLARACION MAP-GET*/
 
     .section__img--portada {
         margin: 100px 0px;
@@ -13,8 +25,8 @@
         height: auto;
     }
     .div__parrafo {
-        background-color: whitesmoke;
-        border-radius: 50px ;
+        background-color: map-get($estilos, color );
+        border-radius: 20px ;
         border: rgb(133, 136, 153) solid 4px;
     }
     .div__portal--parrafo {
@@ -29,61 +41,50 @@
     
     .Autoridades {
         background-image: $bgAzul;
-        border-radius: 10px solid black;
         color: $marcoBlanco;
         border: 5px outset white;    
     }
+                                 /*EXTEND DE AUTORIDADES A IDEARIO E INSTALACIONES*/
     .Ideario {
-        background-image: $bgAzul;
-        color: $marcoBlanco;
-        border: 5px outset white;
+      @extend .Autoridades; 
     }
     .Instalaciones {
-        background-image: $bgAzul;
-        color: $marcoBlanco;
-        border: 5px outset white;
+      @extend .Autoridades;  
     }
+                                             /* INICIO MIXIN*/        
     .imagenes1{
-        width: 300px;
-        height: 300px;
+        @include estiloImagen(300px,300px,5px outset whitesmoke); 
         transition: height 0.5s,width 0.5s;
         margin: 2% auto ;
-        border: 5px outset whitesmoke;  
-        
         
     }
+                                                /* FIN MIXIN*/ 
     .imagenes2{
-        width: 300px;
-        height: 300px;
-        transition: height 0.5s,width 0.5s;
-        margin: 2% auto ;
-        border: 5px outset whitesmoke;  
+        @extend .imagenes1;  
         
         
     }
     .imagenes3{
-        width: 300px;
-        height: 300px;
-        transition: height 0.5s,width 0.5s;
-        margin: 2% auto ;
-        border: 5px outset whitesmoke;
+        @extend .imagenes1;
             
     }
+                                                /* FIN DE EXTEND */
+                                                /*INICIO MAP-GET*/
     .imagenes1:hover {
-        height: 310px;
-        width: 310px;
+        height:map-get($estilos, h310 );
+        width:map-get($estilos, w310 );
     }
     .imagenes2:hover {
-        height: 310px;
-        width: 310px;
+       @extend .imagenes1:hover; 
     }
     .imagenes3:hover {
-        height: 310px;
-        width: 310px;
+        @extend .imagenes1:hover;
+        
     }
     .section__imagenes {
         margin: 80px 0;
     }
+                                                /*FIN MAP-GET*/
     
     
                                                             /* PLANES DE ESTUDIO */
@@ -102,11 +103,7 @@
     border: 5px outset white;   
     }
     .h3__Bachiller2 {
-    font-size: 24px;
-    background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
-    border-radius: 10px solid black;
-    color: blanchedalmond;
-    border: 5px outset white;   
+    @extend .h3__Bachiller1;   
     }
                                                             /* AUTORIDADES */
     .parrafo {

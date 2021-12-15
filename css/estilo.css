@@ -32,6 +32,9 @@ body {
   color: white;
   font-size: 20px; }
 
+/*DECLARANDO VARIABLES PARA MAP-GET*/
+/*DECLARACION MIXIN*/
+/*FIN DECLARACION MAP-GET*/
 .section__img--portada {
   margin: 100px 0px; }
 
@@ -41,7 +44,7 @@ body {
 
 .div__parrafo {
   background-color: whitesmoke;
-  border-radius: 50px;
+  border-radius: 20px;
   border: #858899 solid 4px; }
 
 .div__portal--parrafo {
@@ -52,58 +55,31 @@ body {
   margin: 5px;
   font-size: 18px; }
 
-.Autoridades {
-  background-image: linear-gradient(to left, #2a8cc9, #020a1a);
-  border-radius: 10px solid black;
-  color: blanchedalmond;
-  border: 5px outset white; }
-
-.Ideario {
+.Autoridades, .Ideario, .Instalaciones {
   background-image: linear-gradient(to left, #2a8cc9, #020a1a);
   color: blanchedalmond;
   border: 5px outset white; }
 
-.Instalaciones {
-  background-image: linear-gradient(to left, #2a8cc9, #020a1a);
-  color: blanchedalmond;
-  border: 5px outset white; }
-
-.imagenes1 {
+/*EXTEND DE AUTORIDADES A IDEARIO E INSTALACIONES*/
+/* INICIO MIXIN*/
+.imagenes1, .imagenes2, .imagenes3 {
   width: 300px;
   height: 300px;
+  border: 5px outset whitesmoke;
   transition: height 0.5s,width 0.5s;
-  margin: 2% auto;
-  border: 5px outset whitesmoke; }
+  margin: 2% auto; }
 
-.imagenes2 {
-  width: 300px;
-  height: 300px;
-  transition: height 0.5s,width 0.5s;
-  margin: 2% auto;
-  border: 5px outset whitesmoke; }
-
-.imagenes3 {
-  width: 300px;
-  height: 300px;
-  transition: height 0.5s,width 0.5s;
-  margin: 2% auto;
-  border: 5px outset whitesmoke; }
-
-.imagenes1:hover {
-  height: 310px;
-  width: 310px; }
-
-.imagenes2:hover {
-  height: 310px;
-  width: 310px; }
-
-.imagenes3:hover {
+/* FIN MIXIN*/
+/* FIN DE EXTEND */
+/*INICIO MAP-GET*/
+.imagenes1:hover, .imagenes2:hover, .imagenes3:hover {
   height: 310px;
   width: 310px; }
 
 .section__imagenes {
   margin: 80px 0; }
 
+/*FIN MAP-GET*/
 /* PLANES DE ESTUDIO */
 .imagen__Bachiller {
   width: 400px;
@@ -112,14 +88,7 @@ body {
   color: blanchedalmond;
   border: 5px outset white; }
 
-.h3__Bachiller1 {
-  font-size: 24px;
-  background-image: linear-gradient(to left, #2a8cc9, #020a1a);
-  border-radius: 10px solid black;
-  color: blanchedalmond;
-  border: 5px outset white; }
-
-.h3__Bachiller2 {
+.h3__Bachiller1, .h3__Bachiller2 {
   font-size: 24px;
   background-image: linear-gradient(to left, #2a8cc9, #020a1a);
   border-radius: 10px solid black;
@@ -159,7 +128,7 @@ body {
 /* MEDIAS QUERIES VISTA MOBILE */
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   /* INDEX */
-  .imagenes1 {
+  .imagenes1, .imagenes2, .imagenes3 {
     width: 200px;
     height: 200px;
     transition: height 0.5s,width 0.5s;
@@ -177,7 +146,7 @@ body {
     transition: height 0.5s,width 0.5s;
     margin: 2% auto;
     border: 5px outset whitesmoke; }
-  .imagenes1:hover {
+  .imagenes1:hover, .imagenes2:hover, .imagenes3:hover {
     height: 300px;
     width: 300px; }
   .imagenes2:hover {
