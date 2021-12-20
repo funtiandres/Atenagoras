@@ -6,30 +6,27 @@
 .Container {
   font-family: Zen Antique, Verdana; }
 
+header {
+  padding: 15px 0 15px 0; }
+
 body {
   background-image: linear-gradient(to left, #dde4e7, #6b6d70); }
 
+footer {
+  padding: 25px; }
+
 .bg__azul {
   background-image: linear-gradient(to left, #2a8cc9, #020a1a);
-  border: solid black 5px; }
+  border: solid black 4px; }
 
 .imgLogo {
   width: 120px;
   height: 150px; }
 
-.ul_listType {
-  text-decoration: none;
-  text-decoration-style: none;
-  list-style-type: none; }
-
-.div__nav--header {
-  margin-top: 20px; }
-
 .lista__nav {
-  background-color: white;
-  background-image: linear-gradient(to left, #9cb8c9, #254e99);
+  background-image: linear-gradient(to bottom, #9cb8c9, #49669c);
   border-radius: 10px;
-  color: white;
+  color: white !important;
   font-size: 20px; }
 
 /*DECLARANDO VARIABLES PARA MAP-GET*/
@@ -52,8 +49,8 @@ body {
   height: auto; }
 
 .portal__parrafo--texto {
-  margin: 5px;
-  font-size: 18px; }
+  margin: 30px;
+  font-size: 22px; }
 
 .Autoridades, .Ideario, .Instalaciones {
   background-image: linear-gradient(to left, #2a8cc9, #020a1a);
@@ -107,12 +104,38 @@ body {
 
 /* IDEARIO */
 .p__ideario {
-  font-size: 22px; }
+  font-size: 24px;
+  padding: 20px; }
 
 /*INSTALACIONES  */
 .img__instalaciones--tamaño {
   width: 440px;
-  height: 350px; }
+  height: 350px;
+  padding: 8px; }
+
+.h1__instalaciones {
+  font-size: 32px;
+  padding: 20px; }
+
+.h2__seguridad, .h2__edificio {
+  font-size: 32px;
+  padding: 20px; }
+
+.h3__seguridad {
+  font-size: 22px;
+  padding: 20px; }
+
+.h3__edificio {
+  font-size: 22px;
+  padding: 20px; }
+
+.div__instalaciones2 {
+  padding: 40px 280px; }
+
+/*PROYECTOS*/
+.proyectos__tamaño {
+  width: 450px;
+  height: 400px; }
 
 .imgRedes {
   width: 50px;
@@ -169,7 +192,10 @@ body {
     font-size: 14px; }
   .div__footer--datos {
     justify-content: center;
-    align-self: center; }
+    align-self: center;
+    padding: 15px; }
+  .div__footer--redes {
+    padding: 12px; }
   .imgPortada {
     width: 300px;
     height: 200px; }

@@ -34,8 +34,8 @@ $estilos: (
         height: auto;
     }
     .portal__parrafo--texto {
-        margin: 5px;  
-        font-size: 18px;
+        margin: 30px;  
+        font-size: 22px;
         
     }
     
@@ -117,12 +117,39 @@ $estilos: (
     }
                                                                 /* IDEARIO */
     .p__ideario {
-    font-size: 22px;
+    font-size: 24px;
+    padding: 20px;
     }              
                                                                 /*INSTALACIONES  */
     .img__instalaciones--tamaño {
     width: 440px;
     height: 350px;
+    padding: 8px;
     }
-    
-    
+    .h1__instalaciones {
+        font-size: 32px;
+        padding: 20px;
+    }
+    .h2__seguridad {
+        font-size: 32px;
+        padding: 20px;
+    }
+    .h2__edificio {
+        @extend .h2__seguridad;
+    }
+    .h3__seguridad {
+        font-size: 22px;
+        padding: 20px;
+    }
+    .h3__edificio {
+        font-size: 22px;
+        padding: 20px;
+    }
+    .div__instalaciones2 {
+        padding: 40px 280px;
+    }
+                                                            /*PROYECTOS*/
+    .proyectos__tamaño {
+        width: 450px;
+        height: 400px;
+    }                                                        

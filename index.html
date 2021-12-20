@@ -24,43 +24,58 @@
 </head>
 <body>
     
-<div class="Container ">
+<div class="container-fluid">
+    
      <!-- inicio header -->
-    <div class="row-fluid">
-     <header class=" bg__azul animate__animated animate__pulse   col-lg-12   ">
-        
-         <div class=" d-flex justify-content-center">
-               <img class= "imgLogo  " src="./assets/escudo.png" alt="Atenagoras" class="logo_imagen">
-         </div>
-        
-     
-            <div class=" div__nav--header d-flex justify-content-center col-lg-12 ">
-                 <nav class="nav " >
-                     <ul class="ul_listType d-flex justify-content-center   ">
-                         <li>
-                            <a class="lista__nav" href="./index.html">Instituto</a>
-                            <a class="lista__nav" href="./pages/planesdeestudio.html">Planes de estudio</a>
-                            <a class="lista__nav" href="./pages/ingreso.html">Ingreso</a>
-                            <a class="lista__nav" href="./pages/proyectos.html">Proyectos</a>
-                            <a class="lista__nav" href="./pages/contacto.html">Contacto</a>
+    <div class="row">
+        <header class=" bg__azul animate__animated animate__pulse   col-lg-12   ">
 
-                         </li>
-                     </ul>
-                 </nav>
-             </div>
-     </header>
-    </div>  
+            <div class="justify-content-center d-flex ">
+                <img class= "imgLogo  " src="./assets/escudo.png" alt="Atenagoras" class="logo_imagen">
+            </div>
+
+            <div class=" d-flex justify-content-center  col-lg-12">
+
+                <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center">
+                    
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link lista__nav" href="./index.html">Instituto <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link lista__nav" href="./pages/planesdeestudio.html">Planes de estudio</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link lista__nav" href="./pages/ingreso.html">Ingreso</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link lista__nav" href="./pages/proyectos.html">Proyectos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link lista__nav" href="./pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+   
         
     <!-- fin header -->
     <!-- incio main -->
-        <main class="row-fluid">
+        <main class="row">
             
             <section class=" section__img--portada  d-flex justify-content-center col-lg-12 "> 
                 <div class="  d-flex justify-content-center">
                     <img class="imgPortada animate__animated animate__pulse d-flex justify-content-center" src="./assets/imagenportada.jpg" alt="imagenportada">
                 </div>
             </section>
-            <section class=" col-lg-12 d-flex justify-content-center col-lg-12  col-xs-12">
+            <section class=" col-lg-12 d-flex justify-content-center">
                 <div class="div__portal--parrafo div__parrafo   d-flex justify-content-center">
                     <h2>
                         <p class="portal__parrafo--texto">
@@ -69,34 +84,47 @@
                     </h2>
                 </div>
             </section>
-            <section class="section__imagenes   col-lg-12  d-flex justify-content-around  ">
-                <div class="div__imagen   d-flex justify-content-center ">
-                    <a  href="./pages/instituto/autoridades.html"><h3 class="Autoridades  d-flex justify-content-center animate__animated animate__pulse ">Autoridades</h3><img class="imagenes1    animate__animated animate__pulse" src="./assets/autoridades.jpg" alt="Autoridades"></a>
-                </div>
-                <div class="div__imagen  d-flex justify-content-center">
-                    <a  href="./pages/instituto/ideario.html"><h3 class="Ideario d-flex justify-content-center  animate__animated animate__pulse ">Ideario</h3><img class="imagenes2   animate__animated animate__pulse"  src="./assets/ideario.jpg" alt="Ideario"></a>
-                </div>
-                  <div class="div__imagen  d-flex justify-content-center">
-                    <a  href="./pages/instituto/instalaciones.html"><h3 class="Instalaciones d-flex justify-content-center  animate__animated animate__pulse">Instalaciones</h3><img class="imagenes3   animate__animated animate__pulse"  src="./assets/instalaciones2.jpg" alt="instalaciones"></a>
-                </div>
+            <section class="section__imagenes  col-lg-12 ">
+                <div class="card-deck">
+                    <div class="card">
+                        <a  href="./pages/instituto/autoridades.html"><h3 class="Autoridades  d-flex justify-content-center animate__animated animate__pulse ">Autoridades</h3><img class="imagenes1   d-flex justify-content-center animate__animated animate__pulse" src="./assets/autoridades.jpg" alt="Autoridades"></a>
+                      <div class="card-body">
+                                               
+                        
+                      </div>
+                    </div>
+                    <div class="card">
+                        <a  href="./pages/instituto/ideario.html"><h3 class="Ideario d-flex justify-content-center  animate__animated animate__pulse ">Ideario</h3><img class="imagenes2 d-flex justify-content-center  animate__animated animate__pulse"  src="./assets/ideario.jpg" alt="Ideario"></a>
+                      <div class="card-body">
+                                                                      
+                      </div>
+                    </div>
+                    <div class="card">
+                        <a  href="./pages/instituto/instalaciones.html"><h3 class="Instalaciones d-flex justify-content-center  animate__animated animate__pulse">Instalaciones</h3><img class="imagenes3 d-flex justify-content-center  animate__animated animate__pulse"  src="./assets/instalaciones2.jpg" alt="instalaciones"></a>
+                      <div class="card-body">
+                        
+                                                
+                      </div>
+                    </div>
+                  </div>
             </section>
-            
-            
+
+                        
            
         </main>
               
      <!-- fin main -->
     
      <!-- inicio footer -->
-     <div class="row-fluid ">
-     <footer class=" bg__azul col-lg-4-fluid" >
-         <div class=" div__general--footer d-flex justify-content-around  ">
+     <div class="row">
+     <footer class=" bg__azul col-lg-12 " >
+         <div class=" div__general--footer d-flex justify-content-between  ">
             <div class="  d-flex justify-content-center  " >
                 <div class="div__logo2 ">
                   <img class="imgLogo" src="./assets/escudo.png" alt="Atenagoras">
                 </div>
             </div>
-                 <div class=" d-flex justify-content-center ">
+                 <div class=" d-flex justify-content-center  div__footer--redes">
                      <div class=" align-self-center">
                          <a href="https://twitter.com/atenagoras_1" target="_black"><img class="imgRedes" src="./assets/twitter.png" alt="twitter"></a>
                      </div>
@@ -128,8 +156,8 @@
               <!-- fin footer --> 
        
     
-        <div class="row-fluid ">
-            <div class="div__copy row d-flex justify-content-center align-self-center col-lg-12 col-xs-12 bg__azul" >
+        <div class="row">
+            <div class="div__copy row d-flex justify-content-center align-self-center col-lg-12  bg__azul" >
               <img class="imgRedes " src="./assets/copyright.png" alt="logocopyright">
             </div>
          </div>

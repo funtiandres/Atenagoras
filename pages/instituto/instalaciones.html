@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atenagoras</title>
-     <!-- descripcion -->
-     <meta name="description" content="EL INSTITUTO GRIEGO ATENÁGORAS I está cumpliendo treinta años de trayectoria en la Educación Argentina, única en Sudamérica como institución Helénica de Nivel Medio. Desde su fundación en 1991, realizada por su Eminencia Reverendísima Monseñor Georgios Gennadios Chrysoulakis, echó sus raíces en el barrio de Villa Crespo y creció formando generaciones de jóvenes bajo el lema; “Una persona plena para un Mundo nuevo”.">
-     <!-- keywords -->
-     <meta name="keywords" content="secundario, colegio, educacion, profesores, capacitacion, matematica, lengua, programacion, fisica, quimica, geografia, literatura, musica, educacion fisica, futuro joven">
+    <!-- descripcion -->
+    <meta name="description" content="EL INSTITUTO GRIEGO ATENÁGORAS I está cumpliendo treinta años de trayectoria en la Educación Argentina, única en Sudamérica como institución Helénica de Nivel Medio. Desde su fundación en 1991, realizada por su Eminencia Reverendísima Monseñor Georgios Gennadios Chrysoulakis, echó sus raíces en el barrio de Villa Crespo y creció formando generaciones de jóvenes bajo el lema; “Una persona plena para un Mundo nuevo”.">
+    <!-- keywords -->
+    <meta name="keywords" content="secundario, colegio, educacion, profesores, capacitacion, matematica, lengua, programacion, fisica, quimica, geografia, literatura, musica, educacion fisica, futuro joven">
     <!-- CSS ANIMATE -->
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,46 +22,59 @@
     <link rel="stylesheet" href="../../css/estilo.css">
 </head>
 <body>
-    <div class="Container ">
+    <div class="container-fluid">
+    
         <!-- inicio header -->
-        <div class="row-fluid"></div>
-       
-            <header class=" bg__azul animate__animated animate__pulse   col-lg-12 ">
-                
-                    <div class=" d-flex justify-content-center">
-                        <img class= "imgLogo  " src="../../assets/escudo.png" alt="Atenagoras" class="logo_imagen">
-                    </div>
-                
-                
-                <div class=" div__nav--header d-flex justify-content-center  col-lg-12">
-                    <nav class="nav" >
-                        <ul class="ul_listType d-flex justify-content-center   ">
-                            <li>
-                                <a class="lista__nav" href="../../index.html">Instituto</a>
-                                <a class="lista__nav" href="../planesdeestudio.html">Planes de estudio</a>
-                                <a class="lista__nav" href="../ingreso.html">Ingreso</a>
-                                <a class="lista__nav" href="../proyectos.html">Proyectos</a>
-                                <a class="lista__nav" href="../contacto.html">Contacto</a>
-        
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+       <div class="row">
+           <header class=" bg__azul animate__animated animate__pulse   col-lg-12   ">
+   
+               <div class="justify-content-center d-flex ">
+                   <img class= "imgLogo  " src="../../assets/escudo.png" alt="Atenagoras" class="logo_imagen">
+               </div>
+   
+               <div class=" d-flex justify-content-center  col-lg-12">
+   
+                   <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center">
+                       
+                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                           </button>
+                       <div class="collapse navbar-collapse" id="navbarNav">
+                           <ul class="navbar-nav">
+                               <li class="nav-item active">
+                                   <a class="nav-link lista__nav" href="../../index.html">Instituto <span class="sr-only">(current)</span></a>
+                                   </li>
+                                   <li class="nav-item">
+                                   <a class="nav-link lista__nav" href="../pages/planesdeestudio.html">Planes de estudio</a>
+                                   </li>
+                                   <li class="nav-item">
+                                   <a class="nav-link lista__nav" href="../pages/ingreso.html">Ingreso</a>
+                                   </li>
+                                   <li class="nav-item">
+                                   <a class="nav-link lista__nav" href="../pages/ingreso.html">Proyectos</a>
+                                   </li>
+                                   <li class="nav-item">
+                                       <a class="nav-link lista__nav" href="../pages/ingreso.html">Contacto</a>
+                               </li>
+                           </ul>
+                       </div>
+                   </nav>
+               </div>
            </header>
        </div>
     <!-- fin header -->
     <!-- incio main -->
-        <main class="row-fluid">
-            <section class="section__instalaciones">
+        <main class="row">
+            <section class="section__instalaciones col-lg-12">
                 <div class="div__instalaciones">
-                    <h1 class="h1__instalaciones">
+                    <h1 class="h1__instalaciones d-flex justify-content-center">
                       Instalaciones
                   </h1>
                  </div>
             
               <!-- inicio instalaciones -->
             
-                <div class="div__instalaciones2">
+                <div class="div__instalaciones2 col-lg-12 ">
                     <ul >
                         <li>
                             Salón de usos múltiples (SUM), equipado con los materiales didácticos que se implementan en las distintas actividades desarrolladas.
@@ -100,7 +113,7 @@
                 </div>
             
             
-                <div class="div__instalaciones--tamaño">
+                <div class="div__instalaciones--tamaño col-lg-12">
                     <img class="img__instalaciones--tamaño" src="../../assets/instalaciones/inst1.jpg" alt="">
 
                 
@@ -126,7 +139,7 @@
 <!-- fin instalaciones -->
 <!-- inicio seguridad -->
             <div>
-                <h2 class="h2__seguridad">
+                <h2 class="h2__seguridad d-flex justify-content-center">
                     Seguridad 
                     <h3 class="h3__seguridad">
                         La seguridad cuenta con un alto nivel de exigencia, cumpliendo con todas las normas existentes, sistemas de incendios, escaleras de emergencias, plan y plano de evacuación, señalizaciones, protección de escaleras, puertas con barrales anti pánico, vidrios de doble seguridad, etc.
@@ -136,7 +149,7 @@
             <!-- fin seguridad -->
             <!-- incio edificio -->
             <div>
-                <h2 class="h2__edificio">
+                <h2 class="h2__edificio d-flex justify-content-center">
                     Edificio
 
                 </h2>
@@ -144,6 +157,7 @@
                     Una infraestructura edilicia que responde a las últimas normas de edificación planteadas por el código de Edificación urbana y cuenta con la última tecnología al servicio del alumno. <br>Con sistema de calefacción en las aulas y en espacios didácticos, un ascensor central y una rampa en el acceso principal del instituto. Cada espacio se corresponde a las necesidades de ambientación logrando un mejor rendimiento en el proceso de enseñar y de aprender.
                 </h3>
             </div>
+        
             <!-- fin edificio -->
         </section>
             
@@ -153,15 +167,15 @@
         <!-- fin main -->
     
     <!-- inicio footer -->
-    <div class="row-fluid ">
-        <footer class=" bg__azul col-lg-4-fluid" >
-            <div class=" div__general--footer d-flex justify-content-around  ">
+    <div class="row">
+        <footer class=" bg__azul col-lg-12 " >
+            <div class=" div__general--footer d-flex justify-content-between  ">
                <div class="  d-flex justify-content-center  " >
                    <div class="div__logo2 ">
                      <img class="imgLogo" src="../../assets/escudo.png" alt="Atenagoras">
                    </div>
                </div>
-                    <div class=" d-flex justify-content-center ">
+                    <div class=" d-flex justify-content-center  div__footer--redes">
                         <div class=" align-self-center">
                             <a href="https://twitter.com/atenagoras_1" target="_black"><img class="imgRedes" src="../../assets/twitter.png" alt="twitter"></a>
                         </div>
@@ -189,11 +203,17 @@
            
            </div>
         </footer>   
-        <div class="div__copy  d-flex justify-content-center align-self-center col-lg-12 bg__azul" >
-            <img class="imgRedes " src="../../assets/copyright.png" alt="logocopyright">
-        </div>
+       </div>     
+     <!-- fin footer --> 
+          
        
-    </div>
+           <div class="row">
+               <div class="div__copy row d-flex justify-content-center align-self-center col-lg-12  bg__azul" >
+                 <img class="imgRedes " src="../../assets/copyright.png" alt="logocopyright">
+               </div>
+            </div>
+      
+   </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     </body>
