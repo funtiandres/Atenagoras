@@ -1,5 +1,5 @@
 
-   
+   @import "colores";
     
    
          /* MEDIAS QUERIES VISTA MOBILE */
@@ -115,9 +115,118 @@ height: 200px;
     width: 250px;
     height: 200px;
     padding: 10px;
-}                             
+}
+                                /*PLANES DE ESTUDIO*/
+.imagen__Bachiller {
+    height: 200px;
+    width: 250px;
+  
+}           
+
+.section__Bachiller {
+    display: flex;
+    flex-direction: column;
+    
+}
+                                
 }
 
+/* VISTA DESKTOP*/
+ @media only screen and (min-width: 769px)  {
+
+
+    .gridContainer{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer"
+        "copy";
+        grid-template-columns:  1fr ;
+        grid-template-rows: 1fr auto fit-content fit-content ;
+        
     
+    } 
     
+     header{
+        grid-area: header; 
+        background-image: $bgAzul;
+        justify-content: center;
+        padding: 10px;
+        
+    
+    }
+    main{
+        grid-area: main; 
+        background-image: $bgBody;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    footer{
+        grid-area: footer;   
+        display: flex;
+        height: fit-content;
+        background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
+        justify-content: space-between;
+        border: rgb(0, 0, 0) solid 5px;
+        
+    } 
+    copy {
+        grid-area: copy;
+        display: flex;
+
+    }
+   
+     
+    .flex {
+        display: flex;
+        display: inline-block;
+
+    }
+    .logo {
+        
+        display: flex;
+        justify-content: center;
+    }
+    .nav__contactos {
+        display: flex;
+        justify-content: center;
+    }
+    .div__iframe {
+        display:flex;
+        justify-content:center;
+        margin: 40px;
+    }
+    .div__input {
+        display: flex;
+        justify-content:center;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 20%;
+        padding: 20px;
+        
+    }
+    
+    .div__copy {
+        display: flex;
+        justify-content: center;
+    }
+    .div__footer--redes {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .div__general--footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+   
+}
          

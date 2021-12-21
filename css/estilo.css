@@ -143,6 +143,7 @@ footer {
   flex-wrap: wrap;
   padding: 40px; }
 
+/*CONTACTO*/
 .imgRedes {
   width: 50px;
   height: 50px; }
@@ -231,7 +232,77 @@ footer {
   .proyectos__tamaño {
     width: 250px;
     height: 200px;
-    padding: 10px; } }
+    padding: 10px; }
+  /*PLANES DE ESTUDIO*/
+  .imagen__Bachiller {
+    height: 200px;
+    width: 250px; }
+  .section__Bachiller {
+    display: flex;
+    flex-direction: column; } }
+
+/* VISTA DESKTOP*/
+@media only screen and (min-width: 769px) {
+  .gridContainer {
+    display: grid;
+    grid-template-areas: "header" "main" "footer" "copy";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto fit-content fit-content; }
+  header {
+    grid-area: header;
+    background-image: linear-gradient(to left, #2a8cc9, #020a1a);
+    justify-content: center;
+    padding: 10px; }
+  main {
+    grid-area: main;
+    background-image: linear-gradient(to left, #dde4e7, #6b6d70);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center; }
+  footer {
+    grid-area: footer;
+    display: flex;
+    height: fit-content;
+    background-image: linear-gradient(to left, #2a8cc9, #020a1a);
+    justify-content: space-between;
+    border: black solid 5px; }
+  copy {
+    grid-area: copy;
+    display: flex; }
+  .flex {
+    display: flex;
+    display: inline-block; }
+  .logo {
+    display: flex;
+    justify-content: center; }
+  .nav__contactos {
+    display: flex;
+    justify-content: center; }
+  .div__iframe {
+    display: flex;
+    justify-content: center;
+    margin: 40px; }
+  .div__input {
+    display: flex;
+    justify-content: center; }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    padding: 20px; }
+  .div__copy {
+    display: flex;
+    justify-content: center; }
+  .div__footer--redes {
+    display: flex;
+    justify-content: center; }
+  .div__general--footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; } }
 
 /* *{
     margin: 0;
