@@ -226,7 +226,12 @@ footer {
   /* INSTALACIONES */
   .img__instalaciones--tamaño {
     width: 220px;
-    height: 200px; } }
+    height: 200px; }
+  /* PROYECTOS */
+  .proyectos__tamaño {
+    width: 250px;
+    height: 200px;
+    padding: 10px; } }
 
 /* *{
     margin: 0;
