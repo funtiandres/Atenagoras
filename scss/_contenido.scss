@@ -152,4 +152,11 @@ $estilos: (
     .proyectos__tamaño {
         width: 450px;
         height: 400px;
-    }                                                        
+        padding: 10px;
+    }             
+    .section__proyectos {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px;    
+        
+    }                                           
