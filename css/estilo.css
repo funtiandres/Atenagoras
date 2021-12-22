@@ -208,6 +208,40 @@ footer {
     height: 200px; }
   .portal__parrafo--texto {
     font-size: 14px; }
+  .logo {
+    display: flex;
+    justify-content: center; }
+  .nav__contactos {
+    display: flex;
+    justify-content: center; }
+  .div__iframe {
+    display: flex;
+    justify-content: center;
+    margin: 40px; }
+  .div__input {
+    display: flex;
+    justify-content: center;
+    width: px; }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    padding: 20px; }
+  .div__copyC {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0; }
+  .div__footer--redesC {
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .div__general--footerC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px; }
   /* AUTORIDADES */
   .parrafo {
     font-size: 18px; }
@@ -292,13 +326,13 @@ footer {
     justify-content: center;
     width: 20%;
     padding: 20px; }
-  .div__copy {
+  .div__copyC {
     display: flex;
     justify-content: center; }
-  .div__footer--redes {
+  .div__footer--redesC {
     display: flex;
     justify-content: center; }
-  .div__general--footer {
+  .div__general--footerC {
     display: flex;
     justify-content: space-between;
     align-items: center;
