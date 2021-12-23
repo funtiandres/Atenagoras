@@ -87,6 +87,7 @@ footer {
 
 .h3__Bachiller1, .h3__Bachiller2 {
   font-size: 24px;
+  height: fit-content;
   background-image: linear-gradient(to left, #2a8cc9, #020a1a);
   border-radius: 10px solid black;
   color: blanchedalmond;
@@ -144,16 +145,23 @@ footer {
   padding: 40px; }
 
 /*CONTACTO*/
+.div__copy--margin {
+  margin: 10px 0 0 0; }
+
+/*INGRESO*/
+.portal {
+  width: 70%;
+  height: auto; }
+
+.section__ingreso--portal {
+  margin: 100px 0px; }
+
 .imgRedes {
   width: 50px;
   height: 50px; }
 
 .datos {
   font-size: 18px; }
-
-.div__copy {
-  margin: 15px 0px;
-  padding: 10px 0px; }
 
 /* MEDIAS QUERIES VISTA MOBILE */
 @media only screen and (min-width: 0px) and (max-width: 768px) {
@@ -246,11 +254,18 @@ footer {
   .parrafo {
     font-size: 18px; }
   .section__autoridades {
+    display: flex;
+    justify-content: center;
     margin: 70px 0px; }
   .section__tabla--autoridades {
     margin: 0 0 70px 0; }
   .h1__autoridades {
-    font-size: 24px; }
+    display: flex;
+    font-size: 24px;
+    justify-content: center; }
+  .div__autoridades--h1 {
+    display: flex;
+    justify-content: center; }
   /* IDEARIO */
   .h1__ideario {
     font-size: 24px; }
@@ -260,8 +275,20 @@ footer {
     margin: 25px 0; }
   /* INSTALACIONES */
   .img__instalaciones--tamaño {
+    display: flex;
+    justify-content: center;
     width: 220px;
     height: 200px; }
+  .div__instalaciones2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .div__general--lista {
+    display: flex;
+    justify-content: center; }
+  .instalaciones__imagenes {
+    display: flex;
+    justify-content: center; }
   /* PROYECTOS */
   .proyectos__tamaño {
     width: 250px;
@@ -273,7 +300,10 @@ footer {
     width: 250px; }
   .section__Bachiller {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  /* CONTACTO */
+  .div__copy--margin {
+    margin: 10px 0 0 0; } }
 
 /* VISTA DESKTOP*/
 @media only screen and (min-width: 769px) {
@@ -336,7 +366,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%; } }
+    width: 100%; }
+  .div__instalaciones2 {
+    flex-direction: column; } }
 
 /* *{
     margin: 0;

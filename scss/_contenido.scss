@@ -97,6 +97,7 @@ $estilos: (
     }
     .h3__Bachiller1 {
     font-size: 24px;
+    height: fit-content;
     background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
     border-radius: 10px solid black;
     color: blanchedalmond;
@@ -162,4 +163,15 @@ $estilos: (
     }                                     
                                                     /*CONTACTO*/ 
     
-                                                    
+    .div__copy--margin {
+        margin: 10px 0 0 0 ;
+    }
+                                                /*INGRESO*/
+
+.portal {
+    width: 70%;
+    height: auto;
+}
+.section__ingreso--portal {
+    margin: 100px 0px;
+}

@@ -128,20 +128,28 @@ font-size: 14px;
 }
 
 
-                /* AUTORIDADES */
+                        /* AUTORIDADES */
 .parrafo {
 font-size: 18px;
 }
 .section__autoridades {
-margin: 70px 0px ;
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px ;
 }
 .section__tabla--autoridades {
 margin: 0 0 70px 0;
 }
 .h1__autoridades {
+display: flex;
 font-size: 24px;
+justify-content: center;
 }
-                        /* IDEARIO */
+.div__autoridades--h1 {
+    display: flex;
+    justify-content: center;
+}
+                                 /* IDEARIO */
 
 .h1__ideario {
 font-size: 24px;
@@ -156,8 +164,28 @@ margin: 25px 0;
                                 /* INSTALACIONES */
 
 .img__instalaciones--tamaño {
+    display: flex;
+    justify-content: center;
 width: 220px;
 height: 200px;
+}
+.div__instalaciones2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.div__general--lista {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.instalaciones__imagenes {
+    display: flex;
+    justify-content: center;
+    
 }
                         /* PROYECTOS */
 .proyectos__tamaño {
@@ -176,6 +204,10 @@ height: 200px;
     display: flex;
     flex-direction: column;
     
+}
+                                    /* CONTACTO */
+.div__copy--margin {
+    margin: 10px 0 0 0 ;
 }
                                 
 }
@@ -276,6 +308,14 @@ height: 200px;
         align-items: center;
         width: 100%;
     }
+    .div__instalaciones2 {
+        
+        flex-direction: column;
+        
+        
+    
+    }
+   
    
 }
          
