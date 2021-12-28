@@ -91,7 +91,12 @@ footer {
   background-image: linear-gradient(to left, #2a8cc9, #020a1a);
   border-radius: 10px solid black;
   color: blanchedalmond;
-  border: 5px outset white; }
+  border: 5px outset white;
+  text-align: center; }
+
+.div__Pestudio {
+  height: fit-content;
+  width: fit-content; }
 
 /* AUTORIDADES */
 .parrafo {
@@ -300,10 +305,9 @@ footer {
     width: 250px; }
   .section__Bachiller {
     display: flex;
-    flex-direction: column; }
-  .div__plan--h3 {
-    display: flex;
-    justify-content: center; }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
   /* CONTACTO */
   .div__copy--margin {
     margin: 10px 0 0 0; } }

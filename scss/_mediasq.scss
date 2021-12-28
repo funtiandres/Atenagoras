@@ -197,18 +197,18 @@ height: 200px;
 .imagen__Bachiller {
     height: 200px;
     width: 250px;
-  
+    
 }           
 
 .section__Bachiller {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
-.div__plan--h3 {
-    display: flex;
-    justify-content: center;
-}
+
+
                                     /* CONTACTO */
 .div__copy--margin {
     margin: 10px 0 0 0 ;

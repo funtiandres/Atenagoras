@@ -102,10 +102,16 @@ $estilos: (
     border-radius: 10px solid black;
     color: blanchedalmond;
     border: 5px outset white;   
+    text-align: center;
     }
     .h3__Bachiller2 {
     @extend .h3__Bachiller1;   
     }
+    .div__Pestudio {
+        height: fit-content;
+        width: fit-content;
+    }
+   
                                                             /* AUTORIDADES */
     .parrafo {
     font-size: 26px;
