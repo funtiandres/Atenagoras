@@ -28,13 +28,13 @@
     
      <!-- inicio header -->
     <div class="row">
-        <header class=" bg__azul animate__animated animate__pulse   col-lg-12   ">
-
+        <header class=" bg__azul animate__animated animate__fadeInDown   col-lg-12 ">
+            
             <div class="justify-content-center d-flex ">
                 <img class= "imgLogo  " src="./assets/escudo.png" alt="Atenagoras" class="logo_imagen">
             </div>
 
-            <div class=" d-flex justify-content-center  col-lg-12">
+            <div class=" d-flex justify-content-center  col-lg-12 ">
 
                 <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center">
                     
@@ -57,56 +57,91 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link lista__nav" href="./pages/contacto.html">Contacto</a>
-                            </li>
+                             </li>
                         </ul>
                     </div>
                 </nav>
             </div>
+          
         </header>
     </div>
    
         
     <!-- fin header -->
     <!-- incio main -->
-        <main class="row">
+        <main class="row animate__animated animate__fadeInUp">
             
             <section class=" section__img--portada  d-flex justify-content-center col-lg-12 "> 
-                <div class="  d-flex justify-content-center">
-                    <img class="imgPortada animate__animated animate__pulse d-flex justify-content-center" src="./assets/imagenportada.jpg" alt="imagenportada">
-                </div>
+                <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+                    <ol class="carousel-indicators ">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                    </ol>
+                    <div class="carousel-inner ">
+                      <div class="carousel-item active ">
+                        <img class="imgPortada    d-block w-70 shadow" src="./assets/imagenportada.jpg"  alt="imagenportada">
+                      </div>
+                      <div class="carousel-item  ">
+                        <img class="imgPortada    d-block w-70 shadow " src="./assets/imagenportada2.jpg"  alt="imagenportada">
+                      </div>
+                      <div class="carousel-item  ">
+                        <img class="imgPortada   d-block w-70 shadow" src="./assets/imagenportada3.jpg"  alt="imagenportada">
+                      </div>
+                      <div class="carousel-item ">
+                        <img class="imgPortada   d-block w-70 shadow " src="./assets/imagenportada4.jpg"  alt="imagenportada">
+                      </div>
+                      <div class="carousel-item ">
+                        <img class="imgPortada   d-block w-70 shadow" src="./assets/imagenportada5.jpg"  alt="imagenportada">
+                      </div>
+                      <div class="carousel-item  ">
+                        <img class="imgPortada   d-block w-70 shadow " src="./assets/imagenportada6.jpg"  alt="imagenportada">
+                      </div>
+                      <div class="carousel-item ">
+                        <img class="imgPortada   d-block w-70 shadow " src="./assets/imagenportada7.jpg"  alt="imagenportada">
+                      </div>
+                    </div>
+                    
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </button>
+                  </div>
             </section>
             <section class=" col-lg-12 d-flex justify-content-center">
-                <div class="div__portal--parrafo div__parrafo   d-flex justify-content-center">
+                <div class="div__portal--parrafo div__parrafo   d-flex justify-content-center shadow">
                     <h2>
-                        <p class="portal__parrafo--texto">
+                        <p class="portal__parrafo--texto ">
                             EL INSTITUTO GRIEGO ATENÁGORAS I está cumpliendo treinta años de trayectoria en la Educación Argentina, única en Sudamérica como institución Helénica de Nivel Medio. Desde su fundación en 1991, realizada por su Eminencia Reverendísima Monseñor Georgios Gennadios Chrysoulakis, echó sus raíces en el barrio de Villa Crespo y creció formando generaciones de jóvenes bajo el lema; “Una persona plena para un Mundo nuevo”.
                          </p>
                     </h2>
                 </div>
             </section>
-            <section class="section__imagenes  col-lg-12 ">
-                <div class="card-deck">
-                    <div class="card">
-                        <a  href="./pages/instituto/autoridades.html"><h3 class="Autoridades  d-flex justify-content-center animate__animated animate__pulse ">Autoridades</h3><img class="imagenes1   d-flex justify-content-center animate__animated animate__pulse" src="./assets/autoridades.jpg" alt="Autoridades"></a>
-                      <div class="card-body">
-                                               
-                        
-                      </div>
+            <section class="section__imagenes  col-lg-12 d-flex justify-content-center">
+                <div class="card-deck Justify__cards--mobile ">
+                  
+                    <div class="card shadow ">
+                        <a  href="./pages/instituto/autoridades.html"><h3 class="Autoridades  d-flex justify-content-center animate__animated animate__pulse ">Autoridades</h3><img class="imagenes1  shadow d-flex justify-content-center animate__animated animate__pulse" src="./assets/autoridades.jpg" alt="Autoridades"></a>
                     </div>
-                    <div class="card">
-                        <a  href="./pages/instituto/ideario.html"><h3 class="Ideario d-flex justify-content-center  animate__animated animate__pulse ">Ideario</h3><img class="imagenes2 d-flex justify-content-center  animate__animated animate__pulse"  src="./assets/ideario.jpg" alt="Ideario"></a>
-                      <div class="card-body">
-                                                                      
-                      </div>
+                    
+                    <div class="card shadow ">
+                        <a  href="./pages/instituto/ideario.html"><h3 class="Ideario d-flex justify-content-center  animate__animated animate__pulse ">Ideario</h3><img class="imagenes2 shadow d-flex justify-content-center  animate__animated animate__pulse"  src="./assets/ideario.jpg" alt="Ideario"></a>
                     </div>
-                    <div class="card">
-                        <a  href="./pages/instituto/instalaciones.html"><h3 class="Instalaciones d-flex justify-content-center  animate__animated animate__pulse">Instalaciones</h3><img class="imagenes3 d-flex justify-content-center  animate__animated animate__pulse"  src="./assets/instalaciones2.jpg" alt="instalaciones"></a>
-                      <div class="card-body">
-                        
-                                                
-                      </div>
+                    
+                    <div class="card shadow ">
+                        <a  href="./pages/instituto/instalaciones.html"><h3 class="Instalaciones d-flex justify-content-center  animate__animated animate__pulse">Instalaciones</h3><img class="imagenes3 shadow d-flex justify-content-center  animate__animated animate__pulse"  src="./assets/instalaciones2.jpg" alt="instalaciones"></a>
                     </div>
-                  </div>
+                  
+                </div>
             </section>
 
                         
@@ -117,36 +152,36 @@
     
      <!-- inicio footer -->
      
-     <footer class=" bg__azul row" >
+     <footer class=" bg__azul row animate__animated animate__fadeInUp" >
          <div class=" div__general--footer d-flex justify-content-between col-lg-12 ">
             <div class="d-flex justify-content-center" >
-                <div class="div__logo2  ">
-                  <img class="imgLogo" src="./assets/escudo.png" alt="Atenagoras">
-                </div>
+                    <div class="div__logo2  ">
+                      <img class="imgLogo" src="./assets/escudo.png" alt="Atenagoras">
+                    </div>
             </div>
             <div class=" d-flex justify-content-center ">
-                     <div class=" align-self-center">
-                         <a href="https://twitter.com/atenagoras_1" target="_black"><img class="imgRedes" src="./assets/twitter.png" alt="twitter"></a>
-                     </div>
-                     <div class=" align-self-center">
-                         <a href="https://www.facebook.com/atenagoras1/" target="_black"><img class="imgRedes" src="./assets/facebook.png" alt="facebook"></a>
-                     </div>
-                     <div class=" align-self-center">
-                         <a href="https://instagram.com/atenagoras_1?utm_medium=copy_link" target="_black"><img class="imgRedes" src="./assets/instagram.png" alt="instagram" ></a>
-                     </div>
+                        <div class=" align-self-center">
+                            <a href="https://twitter.com/atenagoras_1" target="_black"><img class="imgRedes" src="./assets/twitter.png" alt="twitter"></a>
+                        </div>
+                        <div class=" align-self-center">
+                            <a href="https://www.facebook.com/atenagoras1/" target="_black"><img class="imgRedes" src="./assets/facebook.png" alt="facebook"></a>
+                        </div>
+                        <div class=" align-self-center">
+                            <a href="https://instagram.com/atenagoras_1?utm_medium=copy_link" target="_black"><img class="imgRedes" src="./assets/instagram.png" alt="instagram" ></a>
+                        </div>
             </div>
-           
+              
             <div class=" div__footer--datos d-flex justify-content-end  " >
-        
-                 <div class="d-flex justify-content-center ">
-                    <div class=" align-self-center ">
-                   
-                      <h4 class="datos">Lerma 242/52 CABA, Argentina </h4>
-                      <h4 class="datos">Telefono: 011 4777-2124  </h4>
-                      <h4 class="datos"> atenagoras1@gmail.com </h4>
-                                           
+            
+                    <div class="d-flex justify-content-center ">
+                          <div class=" align-self-center ">
+                        
+                            <h4 class="datos">Lerma 242/52 CABA, Argentina </h4>
+                            <h4 class="datos">Telefono: 011 4777-2124  </h4>
+                            <h4 class="datos"> atenagoras1@gmail.com </h4>
+                                                
+                          </div>
                     </div>
-                 </div>
 
             </div>
         
@@ -156,9 +191,9 @@
               <!-- fin footer --> 
        
     
-        <div class="row">
+        <div class="row animate__animated animate__fadeInUp">
             <div class="div__copy--margin  d-flex justify-content-center align-self-center col-lg-12  bg__azul" >
-              <img class="imgRedes " src="./assets/copyright.png" alt="logocopyright">
+              <img class="imgRedes margin__footer2" src="./assets/copyright.png" alt="logocopyright">
             </div>
          </div>
    

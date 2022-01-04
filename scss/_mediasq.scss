@@ -46,6 +46,25 @@ width: 300px;
 .section__imagenes {
 display: flex;
 flex-direction: column;
+
+}
+.Justify__cards--mobile  { 
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+} 
+.card-deck {
+    width: 250px;
+    height: auto;
+    
+}
+.div__cards--main {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+.card {
+    background-color: rgba($color: #04273d, $alpha: 0.3);
 }
 .div__general--footer {
 display: flex;
@@ -76,7 +95,12 @@ height: 200px;
 
 .portal__parrafo--texto {
 font-size: 14px;
+display: flex;
+justify-content: center;
+text-align: center;
+
 }
+
 
 .logo {
         
@@ -126,6 +150,11 @@ font-size: 14px;
     padding: 10px;
     
 }
+.carousel-item {
+    
+    padding: 30px 10px 0px 10px;
+    
+}
 
 
                         /* AUTORIDADES */
@@ -166,27 +195,21 @@ margin: 25px 0;
 .img__instalaciones--tamaño {
     display: flex;
     justify-content: center;
-width: 220px;
-height: 200px;
+    width: 220px;
+    height: 200px;
 }
 .div__instalaciones2 {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
     
+}
 
-}
-.div__general--lista {
-    display: flex;
-    justify-content: center;
-    
-    
-}
-.instalaciones__imagenes {
-    display: flex;
-    justify-content: center;
-    
-}
+ 
+
                         /* PROYECTOS */
 .proyectos__tamaño {
     width: 250px;
@@ -213,6 +236,17 @@ height: 200px;
 .div__copy--margin {
     margin: 10px 0 0 0 ;
 }
+                                /*INGRESO*/
+.section__ingreso--iu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tamaño__texto {
+    font-size: 14px;
+}
+
+    
                                 
 }
 
@@ -255,7 +289,7 @@ height: 200px;
         height: fit-content;
         background-image: linear-gradient(to left,rgb(42, 140, 201), rgb(2, 10, 26));
         justify-content: space-between;
-        border: rgb(0, 0, 0) solid 5px;
+        
         
     } 
     copy {
@@ -312,13 +346,7 @@ height: 200px;
         align-items: center;
         width: 100%;
     }
-    .div__instalaciones2 {
-        
-        flex-direction: column;
-        
-        
-    
-    }
+   
    
    
 }

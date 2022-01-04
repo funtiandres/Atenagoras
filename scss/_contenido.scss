@@ -13,17 +13,22 @@ $estilos: (
     
 }
                                 /*FIN DECLARACION MAP-GET*/
+ 
 
     .section__img--portada {
-        margin: 100px 0px;
+        margin: 100px 0px 150px;
         
         
     }
-    
-    .imgPortada {
-        width: 70%;
+    .carousel-item {
+        padding: 50px 0px 0px 400px;
+    }
+   
+     .imgPortada {
+         width: 70%;
         height: auto;
-    }
+        
+     }
     .div__parrafo {
         background-color: map-get($estilos, color );
         border-radius: 20px ;
@@ -32,10 +37,13 @@ $estilos: (
     .div__portal--parrafo {
         width: 65%;
         height: auto;
+        
+        
     }
     .portal__parrafo--texto {
         margin: 30px;  
         font-size: 22px;
+        text-shadow: 2px 2px rgba(133, 136, 153,0.2) ;
         
     }
     
@@ -43,6 +51,7 @@ $estilos: (
         background-image: $bgAzul;
         color: $marcoBlanco;
         border: 5px outset white;    
+        
     }
                                  /*EXTEND DE AUTORIDADES A IDEARIO E INSTALACIONES*/
     .Ideario {
@@ -56,6 +65,7 @@ $estilos: (
         @include estiloImagen(300px,300px,5px outset whitesmoke); 
         transition: height 0.5s,width 0.5s;
         margin: 2% auto ;
+        
         
     }
                                                 /* FIN MIXIN*/ 
@@ -83,7 +93,23 @@ $estilos: (
     }
     .section__imagenes {
         margin: 80px 0;
+        
     }
+    .card-deck {
+        width: 1200px;
+        height: auto;
+        
+        
+    }
+    .card {
+        background-color: rgba($color: #04273d, $alpha: 0.1);
+        
+    }
+    .card:hover {
+        background-color: rgba($color: #04273d, $alpha: 0.5);
+    }
+   
+    
                                                 /*FIN MAP-GET*/
     
     
@@ -153,7 +179,10 @@ $estilos: (
         padding: 20px;
     }
     .div__instalaciones2 {
-        padding: 40px 280px;
+        flex-direction: column;
+        text-align: center;
+        
+        
     }
                                                             /*PROYECTOS*/
     .proyectos__tamaño {
@@ -181,3 +210,19 @@ $estilos: (
 .section__ingreso--portal {
     margin: 100px 0px;
 }
+.separacion__informes {
+    margin: 0px 15px 15px 0px ;
+}
+.introductorios {
+    text-decoration-line: underline;
+}
+.pedagogicos {
+    @extend .introductorios;
+}
+.Uescolar {
+    @extend .introductorios;
+}
+.Efisica {
+    @extend .introductorios;
+}
+
